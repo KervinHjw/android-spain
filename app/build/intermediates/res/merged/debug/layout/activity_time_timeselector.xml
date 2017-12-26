@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_titlte" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.en.scian.view.PickerView
+                android:id="@+id/hour_pv"
+                android:layout_width="80dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:id="@+id/minute_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_picker_hour"
+                android:textColor="#0096F2"
+                android:textSize="@dimen/txt16sp" />
+
+            <com.en.scian.view.PickerView
+                android:id="@+id/minute_pv"
+                android:layout_width="80dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="30dip" />
+
+            <TextView
+                android:id="@+id/second_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_picker_minute"
+                android:textColor="#0096F2"
+                android:textSize="@dimen/txt16sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="5dip"
+            android:layout_height="58dip"
+            android:layout_centerVertical="true"
+            android:src="#00A1F4" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="50dip"
+            android:src="#F8F8F8" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="110dip"
+            android:src="#F8F8F8" />
+
+        <ImageView
+            android:layout_width="1dip"
+            android:layout_height="50dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dip"
+            android:src="#F8F8F8" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/time_btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_red_bg"
+        android:text="@string/time_timeselector_delremind"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

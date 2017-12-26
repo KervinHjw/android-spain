@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myfriend_info_bg" />
+
+    <RelativeLayout
+        android:id="@+id/myfriend_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#207BDA" >
+
+        <ImageView
+            android:id="@+id/myfriend_info_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/common_back" />
+
+        <TextView
+            android:id="@+id/myfriend_info_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt22sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/friend_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F3F3F5"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/myfriend_info_liuyan_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/myfriend_info_liuyan_send"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/myfriend_send"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/friend_rl"
+        android:layout_below="@id/myfriend_info_title"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical" >
+
+        <com.en.scian.view.PullDownScrollView
+            android:id="@+id/equipment_scroll2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/web_bg2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp" >
+
+                        <com.en.scian.view.RoundImageView
+                            android:id="@+id/myfriend_info_head"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/normal_user__circle_head" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="8dp" >
+
+                            <TextView
+                                android:id="@+id/myfriend_info_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/txt20sp" />
+
+                            <TextView
+                                android:id="@+id/myfriend_info_phoneNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/myfriend_info_name"
+                                android:layout_marginTop="2dp"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/txt20sp" />
+
+                            <ImageView
+                                android:id="@+id/myfriend_info_call"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@id/myfriend_info_phoneNumber"
+                                android:layout_marginBottom="3dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_toEndOf="@id/myfriend_info_phoneNumber"
+                                android:background="@drawable/myfriend_info_call" />
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true" >
+
+                                <ImageView
+                                    android:id="@+id/myfriend_info_progress_quan"
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="-10dp"
+                                    android:background="@drawable/home_xueya_progress_quan" />
+
+                                <TextView
+                                    android:id="@+id/myfriend_info_progress_healthNumber"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="-10dp"
+                                    android:textColor="#F5DD8A"
+                                    android:textSize="@dimen/txt18sp" />
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@drawable/home_myfriend_hengxian" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/myfriend_info_left_green" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/myfriend_clrq"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt18sp" />
+
+                        <TextView
+                            android:id="@+id/myfriend_info_celiangshijian"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="08-14 16:54"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/myfriend_info_history"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/myfriend_info_xueya"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="-/-"
+                                android:textColor="#F6C661"
+                                android:textSize="@dimen/txt26sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:text="@string/myfriend_xy"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/txt18sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/myfriend_info_shuxian" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/myfriend_info_pulse"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="-"
+                                android:textColor="#EC7171"
+                                android:textSize="@dimen/txt26sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/myfriend_xt"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/txt18sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/myfriend_info_shuxian" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/myfriend_info_bloodPressureDiffer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="-"
+                                android:textColor="#FEC452"
+                                android:textSize="@dimen/txt26sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/myfriend_myc"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/txt18sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/common_icon_arrow"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/home_myfriend_hengxian" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/myfriend_info_left_blue" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:background="@drawable/myfriend_info_left_liuyan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="@string/myfriend_all"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt18sp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/myfriend_info_right_pinglun"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <com.en.scian.view.ListViewForScrollView
+                        android:id="@+id/myfriend_info_lv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/transparent"
+                        android:cacheColorHint="@android:color/transparent"
+                        android:divider="@drawable/myfriend_info_xuxian"
+                        android:dividerHeight="1dp"
+                        android:listSelector="@android:color/transparent"
+                        android:scrollbars="none" />
+                </LinearLayout>
+            </ScrollView>
+        </com.en.scian.view.PullDownScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

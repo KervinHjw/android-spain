@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="8dip" >
+
+    <ImageView
+        android:id="@+id/myfriend_add_item_head"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_centerVertical="true"
+        android:src="@drawable/personalcenter_head_square_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dip"
+        android:layout_marginStart="8dip"
+        android:layout_toEndOf="@id/myfriend_add_item_head"
+        android:layout_toRightOf="@id/myfriend_add_item_head"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/myfriend_add_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/myfriend_add_item_uesr"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt16sp" />
+
+        <TextView
+            android:id="@+id/myfriend_add_item_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/myfriend_add_item_uesr"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/txt12sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/myfriend_add_item_addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/myfriend_btn_selector"
+        android:text="@string/myfriend_add_item_add"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt16sp" />
+
+</RelativeLayout>

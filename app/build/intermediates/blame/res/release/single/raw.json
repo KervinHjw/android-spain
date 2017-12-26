@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\raw\\beep.ogg",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\raw\\weixin_beep.ogg",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\raw\\weixin_beep.ogg"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\raw\\baidu_beep.ogg",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\raw\\baidu_beep.ogg"
+    }
+]

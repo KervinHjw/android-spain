@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="-50.0dip"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        >
+
+        <!-- 箭头图像、进度条 -->
+
+        <!-- <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip" > -->
+
+            <!-- 箭头 -->
+
+            <ImageView
+                android:id="@+id/head_arrowImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/goicon" />
+
+            <!-- 进度条 -->
+
+            <ProgressBar
+                android:id="@+id/head_progressBar"
+                style="@android:style/Widget.ProgressBar.Small.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+       <!--  </FrameLayout> -->
+
+        <!-- <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" > -->
+
+            <!-- 提示 -->
+
+            <TextView
+                android:id="@+id/refresh_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/refresh_top_item_pullrefresh"
+                android:layout_centerInParent="true"
+                android:textColor="#f444"
+                android:textSize="@dimen/txt16sp" />
+
+            <!-- 最近更新 -->
+
+            <!-- <TextView
+                android:id="@+id/refresh_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/refresh_top_item_lastupdate"
+                android:textColor="#b89766"
+              android:textSize="@dimen/txt10sp" /> -->
+        <!-- </LinearLayout> -->
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_titlte" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/title_one_bar" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/screening_data_chosetime"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/txt16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/screening_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/choosing_on_bar" >
+
+        <TextView
+            android:id="@+id/screening_tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/screening_data_lastoneweek"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/txt18sp" />
+
+        <ImageView
+            android:id="@+id/screening_img_1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/tickl" />
+    </RelativeLayout>
+    <!-- 2周 -->
+
+    <RelativeLayout
+        android:id="@+id/screening_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/choosing_off" >
+
+        <TextView
+            android:id="@+id/screening_tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/screening_data_lasttwoweek"
+            android:textColor="#000"
+            android:textSize="@dimen/txt18sp" />
+
+        <ImageView
+            android:id="@+id/screening_img_2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/tickl"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <!-- 1月 -->
+
+    <RelativeLayout
+        android:id="@+id/screening_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/choosing_off" >
+
+        <TextView
+            android:id="@+id/screening_tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/screening_data_lastonemonth"
+            android:textColor="#000"
+            android:textSize="@dimen/txt18sp" />
+
+        <ImageView
+            android:id="@+id/screening_img_3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/tickl"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <!-- 2月 -->
+
+    <RelativeLayout
+        android:id="@+id/screening_layout_4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/choosing_off" >
+
+        <TextView
+            android:id="@+id/screening_tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/screening_data_lasttwomonth"
+            android:textColor="#000"
+            android:textSize="@dimen/txt18sp" />
+
+        <ImageView
+            android:id="@+id/screening_img_4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/tickl"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="#D1D1D1" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/screening_next"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="@string/screening_data_confirm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt16sp" />
+
+</LinearLayout>

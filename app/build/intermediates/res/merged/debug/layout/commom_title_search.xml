@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rel_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/main_color"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/leftImg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@null"
+            android:clickable="false"
+            android:src="@drawable/common_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/right_txt"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_bg"
+            android:clickable="false"
+            android:text="@string/common_title_search"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/txt16sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/titleText"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/rightLayout"
+        android:layout_toRightOf="@id/leftLayout"
+        android:background="@drawable/edt_bg"
+        android:hint="@string/shuruguanjianzisousuo"
+        android:paddingLeft="5dp"
+        android:textSize="@dimen/txt16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\logo_lude.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\logo_lude.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\lead3.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\lead3.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\lead1.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\lead1.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\share.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\share.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\lead2.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\lead2.png"
+    }
+]

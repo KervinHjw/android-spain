@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dip"
+    android:background="@drawable/item_layout_white_bg"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="3dip"
+        android:layout_height="15dip"
+        android:layout_marginTop="13dip"
+        android:src="#FF8A8A" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/messagecenter_messagelist_item_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="2015-08-13"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/txt14sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dip"
+            android:src="#F5F4F4" />
+
+        <TextView
+            android:id="@+id/messagecenter_messagelist_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/messagecenter_messagelist_item_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt14sp" />
+    </LinearLayout>
+
+</LinearLayout>
+

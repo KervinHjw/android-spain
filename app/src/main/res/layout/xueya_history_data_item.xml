@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/xueya_history_data_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="@dimen/txt24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/xueya_data_time"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxEms="5"
+        android:singleLine="false"
+        android:text="@string/xueya_history_data_item2_date"
+        android:textColor="#fff"
+        android:textSize="@dimen/txt14sp" />
+
+    <ImageView
+        android:id="@+id/xueya_data_history_cycle"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/y" />
+
+    <RelativeLayout
+        android:id="@+id/time_rl"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/web_bg" >
+
+        <TextView
+            android:id="@+id/xueya_history_data_num"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="@dimen/txt26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/xueya_history_data_num"
+            android:text="mmHg"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/txt14sp" />
+
+        <TextView
+            android:id="@+id/xueya_history_data_maibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#FF8282"
+            android:textSize="@dimen/txt24sp" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/xueya_history_data_maibo"
+            android:background="@drawable/heart" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dp_100">100dip</dimen>
+    <dimen name="dp_60">60dip</dimen>
+    <dimen name="sp_22">22sp</dimen>
+    <dimen name="txt10sp">8sp</dimen>
+    <dimen name="txt12sp">10sp</dimen>
+    <dimen name="txt14sp">11sp</dimen>
+    <dimen name="txt16sp">13sp</dimen>
+    <dimen name="txt18sp">14sp</dimen>
+    <dimen name="txt20sp">16sp</dimen>
+    <dimen name="txt22sp">18sp</dimen>
+    <dimen name="txt24sp">20sp</dimen>
+    <dimen name="txt26sp">22sp</dimen>
+    <dimen name="txt28sp">24sp</dimen>
+    <dimen name="txt30sp">26sp</dimen>
+</resources>

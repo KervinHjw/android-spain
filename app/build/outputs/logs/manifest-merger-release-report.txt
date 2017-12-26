@@ -1,0 +1,686 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:2:1-424:12
+	package
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:4:5-27
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] E:\adt-bundle\sdk\.android\build-cache\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] E:\adt-bundle\sdk\.android\build-cache\2dff17c6b88eb01fa5b5b0ee1fd7183233a2a8bf\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] E:\adt-bundle\sdk\.android\build-cache\301c1c393b3f966ae64eae4f5dc2d9f42d17cfbb\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] E:\adt-bundle\sdk\.android\build-cache\eae2214b650494e8185a7b6eb1194cfe98fcf70a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] E:\adt-bundle\sdk\.android\build-cache\e462fd806129779eda6c078442734c8edeabc59f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] E:\adt-bundle\sdk\.android\build-cache\758b0c416818e9d42441a5e87c8912afec6cda23\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] E:\adt-bundle\sdk\.android\build-cache\06110a6c9b1c91b4cf2086b54c498600bb28ee12\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] E:\adt-bundle\sdk\.android\build-cache\957101b88955101d19b127cb15d4b58d96e85014\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] E:\adt-bundle\sdk\.android\build-cache\398dabfcb993fa7b99b03fa7d7dd609ac533d2eb\output\AndroidManifest.xml:21:5-23:58
+MERGED from [as_scian:BleLib:unspecified] E:\as_scian\BleLib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] E:\adt-bundle\sdk\.android\build-cache\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_scian\app\src\main\AndroidManifest.xml
+permission#com.example.ludehealthnew.permission.JPUSH_MESSAGE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:13:5-15:47
+	android:protectionLevel
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:14:9-74
+uses-permission#com.example.ludehealthnew.permission.JPUSH_MESSAGE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:18:5-90
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:18:22-87
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:26:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:27:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:28:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:29:5-78
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:29:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:32:5-81
+MERGED from [as_scian:BleLib:unspecified] E:\as_scian\BleLib\build\intermediates\bundles\default\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:33:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:34:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:35:5-79
+MERGED from [as_scian:BleLib:unspecified] E:\as_scian\BleLib\build\intermediates\bundles\default\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:36:5-89
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:36:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:37:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:38:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:47:5-74
+MERGED from [as_scian:BleLib:unspecified] E:\as_scian\BleLib\build\intermediates\bundles\default\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:47:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:49:5-68
+MERGED from [as_scian:BleLib:unspecified] E:\as_scian\BleLib\build\intermediates\bundles\default\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:49:22-65
+uses-permission#android.permission.CAMERA
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:51:5-65
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:51:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:55:5-69
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:55:22-66
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:57:5-69
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:57:22-66
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:67:5-74
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:67:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:68:5-71
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:68:22-68
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:72:5-81
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:72:22-78
+application
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:74:5-416:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] E:\adt-bundle\sdk\.android\build-cache\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] E:\adt-bundle\sdk\.android\build-cache\2dff17c6b88eb01fa5b5b0ee1fd7183233a2a8bf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] E:\adt-bundle\sdk\.android\build-cache\301c1c393b3f966ae64eae4f5dc2d9f42d17cfbb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] E:\adt-bundle\sdk\.android\build-cache\eae2214b650494e8185a7b6eb1194cfe98fcf70a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] E:\adt-bundle\sdk\.android\build-cache\e462fd806129779eda6c078442734c8edeabc59f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] E:\adt-bundle\sdk\.android\build-cache\758b0c416818e9d42441a5e87c8912afec6cda23\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] E:\adt-bundle\sdk\.android\build-cache\06110a6c9b1c91b4cf2086b54c498600bb28ee12\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] E:\adt-bundle\sdk\.android\build-cache\957101b88955101d19b127cb15d4b58d96e85014\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] E:\adt-bundle\sdk\.android\build-cache\398dabfcb993fa7b99b03fa7d7dd609ac533d2eb\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:80:9-41
+	android:hardwareAccelerated
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:77:9-44
+	android:allowBackup
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:76:9-35
+	android:icon
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:78:9-43
+	android:theme
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:81:9-62
+	tools:replace
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:79:9-52
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:75:9-55
+activity#com.en.scian.astart.WelcomeActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:82:9-91:20
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:85:13-45
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:83:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:86:13-90:29
+action#android.intent.action.MAIN
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:87:17-69
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:87:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:89:17-77
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:89:27-74
+service#com.clj.fastble.iscian.IscianService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:92:9-72
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:92:18-69
+activity#com.en.scian.astart.GuideActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:94:9-97:20
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:95:13-61
+activity#com.en.scian.login.LoginActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:99:9-106:20
+	android:clearTaskOnLaunch
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:101:13-45
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:104:13-49
+	android:launchMode
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:103:13-44
+	android:windowSoftInputMode
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:105:13-64
+	android:configChanges
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:102:13-63
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:100:13-60
+activity#com.en.scian.login.RegisterActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:108:9-112:20
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:111:13-49
+	android:launchMode
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:109:13-63
+activity#com.en.scian.login.RegistrationAgreementActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:114:9-117:20
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:115:13-76
+activity#com.en.scian.login.RegisterPersonalDataActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:119:9-122:20
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:121:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:120:13-75
+activity#com.en.scian.personalcenter.UpdatePWDActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:124:9-127:25
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:126:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:125:13-73
+activity#com.en.scian.login.ForgetPwdActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:129:9-132:25
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:131:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:130:13-64
+activity#com.en.scian.main.HomeActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:134:9-136:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:135:13-58
+activity#com.en.scian.personalcenter.PersonalDataActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:138:9-140:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:140:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:139:13-76
+activity#com.en.scian.messagecenter.MessageCenterActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:142:9-144:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:144:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:143:13-76
+activity#com.en.scian.messagecenter.MessageCenterFriendActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:147:13-82
+activity#com.en.scian.messagecenter.MessageCenterMessageActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:150:9-152:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:152:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:151:13-83
+activity#com.en.scian.messagecenter.MessageCenterSystemMessageActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:154:9-156:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:156:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:155:13-89
+activity#com.en.scian.messagecenter.MessageDetailActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:158:9-160:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:159:13-76
+receiver#com.en.scian.main.HomeActivity$MyBroadcastReceiver
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:162:9-166:20
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:162:19-84
+intent-filter#com.aaa
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:163:13-165:29
+action#com.aaa
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:164:17-50
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:164:25-47
+activity#com.en.scian.mydevices.MyDevicesActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:168:9-170:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:170:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:169:13-68
+activity#com.en.scian.qrcode.QRCodeActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:172:9-174:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:174:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:173:13-62
+activity#com.en.scian.setting.SettingActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:176:9-178:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:178:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:177:13-64
+activity#com.en.scian.setting.InstructionsActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:180:9-182:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:181:13-69
+activity#com.en.scian.setting.AboutActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:184:9-186:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:185:13-62
+activity#com.en.scian.myfriend.MyFriendLiuyanActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:188:9-191:57
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:190:13-49
+	android:windowSoftInputMode
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:191:13-55
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:189:13-72
+activity#com.en.scian.myfriend.MyFriendHistoryDataActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:193:9-195:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:195:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:194:13-77
+activity#com.en.scian.myfriend.AddFriendActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:197:9-199:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:199:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:198:13-67
+activity#com.zf.myzxing.CaptureActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:201:9-203:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:203:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:202:13-58
+activity#com.en.scian.myfriend.AddFriendPromptActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:205:9-207:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:206:13-73
+activity#com.en.scian.xueya.XueYaCeLiangDataActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:210:9-212:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:212:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:211:13-71
+activity#com.en.scian.xueya.ScreeningDataActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:214:9-216:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:215:13-68
+activity#com.en.scian.xueya.EquipmentXueTangActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:218:9-220:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:220:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:219:13-71
+activity#com.en.scian.xueya.XueYaCeLiangZhiDaoActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:222:9-224:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:224:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:223:13-73
+activity#com.en.scian.xueya.XueYaCeLiangShouDongActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:226:9-228:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:228:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:227:13-75
+activity#com.en.scian.xueya.XueYaCeLiangActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:230:9-232:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:232:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:231:13-67
+activity#com.en.scian.expertadvice.DailyRecommendationActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:234:9-236:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:236:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:235:13-81
+activity#com.en.scian.expertadvice.BloodPressureSuggestionActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:238:9-240:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:240:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:239:13-85
+activity#com.en.scian.expertadvice.BloodSugarSuggestionActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:242:9-244:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:243:13-82
+activity#com.en.scian.time.TimeActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:246:9-249:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:249:13-49
+	android:launchMode
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:248:13-44
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:247:13-58
+activity#com.en.scian.time.TimeChiyaoActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:251:9-253:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:253:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:252:13-64
+activity#com.en.scian.time.TimeCeliangActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:255:9-257:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:257:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:256:13-65
+activity#com.en.scian.xueya.XunYiActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:260:9-262:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:262:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:261:13-60
+activity#com.en.scian.myfriend.WebViewActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:264:9-266:53
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:266:13-50
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:265:13-65
+activity#com.en.scian.time.TimeSelectorActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:268:9-270:52
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:270:13-49
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:269:13-66
+activity#com.mob.tools.MobUIShell
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:271:9-277:20
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:274:13-49
+	android:windowSoftInputMode
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:276:13-67
+	android:configChanges
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:273:13-74
+	android:theme
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:275:13-72
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:272:13-52
+activity#com.en.scian.wxapi.WXEntryActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:280:9-285:75
+	android:screenOrientation
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:284:13-49
+	android:exported
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:283:13-36
+	android:configChanges
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:282:13-74
+	android:theme
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:285:13-72
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:281:13-62
+service#com.en.scian.MyService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:287:9-291:19
+	android:enabled
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:289:13-35
+	android:exported
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:290:13-37
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:288:13-50
+activity#com.en.scian.DetailActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:294:9-300:20
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:294:19-61
+intent-filter#jpush.testAction+jpush.testCategory
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:295:13-299:29
+action#jpush.testAction
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:296:17-59
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:296:25-56
+category#jpush.testCategory
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:298:17-63
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:298:27-60
+activity#cn.jpush.android.ui.PushActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:308:9-318:20
+	android:exported
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:311:13-37
+	android:configChanges
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:310:13-63
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:309:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.example.ludehealthnew
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:312:13-317:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:313:17-75
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:313:25-72
+category#android.intent.category.DEFAULT
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:315:17-76
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:315:27-73
+category#com.example.ludehealthnew
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:316:17-70
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:316:27-67
+service#cn.jpush.android.service.DownloadService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:320:9-324:19
+	android:enabled
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:322:13-35
+	android:exported
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:323:13-37
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:321:13-68
+service#cn.jpush.android.service.PushService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:327:9-337:19
+	android:enabled
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:329:13-35
+	android:exported
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:330:13-37
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:328:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:331:13-336:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:332:17-75
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:332:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:333:17-73
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:333:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:334:17-78
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:334:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:335:17-76
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:335:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:341:9-350:19
+	android:enabled
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:343:13-35
+	android:exported
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:344:13-36
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:342:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.example.ludehealthnew
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:345:13-349:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:346:17-80
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:346:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:375:9-75
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:375:19-72
+receiver#com.en.scian.MyReceiver
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:378:9-392:20
+	android:enabled
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:380:13-35
+	android:exported
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:381:13-37
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:379:13-51
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.example.ludehealthnew
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:382:13-391:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:383:17-79
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:383:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:384:17-81
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:384:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:385:17-83
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:385:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:386:17-88
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:386:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:387:17-86
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:387:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:388:17-91
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:388:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:389:17-77
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:389:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:395:9-397:49
+	android:value
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:397:13-46
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:396:13-41
+meta-data#JPUSH_APPKEY
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:398:9-400:56
+	android:value
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:400:13-53
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:399:13-40
+meta-data#UMENG_APPKEY
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:402:9-404:56
+	android:value
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:404:13-53
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:403:13-40
+meta-data#UMENG_CHANNEL
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:405:9-407:42
+	android:value
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:407:13-39
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:406:13-41
+service#com.umeng.update.net.DownloadingService
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:409:9-411:53
+	android:process
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:411:13-50
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:410:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:413:9-415:75
+	android:theme
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:415:13-72
+	android:name
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:414:13-65
+supports-screens
+ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:418:5-422:39
+	android:largeScreens
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:420:9-36
+	android:smallScreens
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:422:9-36
+	android:normalScreens
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:421:9-37
+	android:anyDensity
+		ADDED from E:\as_scian\app\src\main\AndroidManifest.xml:419:9-34
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] E:\adt-bundle\sdk\.android\build-cache\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] E:\adt-bundle\sdk\.android\build-cache\2dff17c6b88eb01fa5b5b0ee1fd7183233a2a8bf\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] E:\adt-bundle\sdk\.android\build-cache\301c1c393b3f966ae64eae4f5dc2d9f42d17cfbb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] E:\adt-bundle\sdk\.android\build-cache\eae2214b650494e8185a7b6eb1194cfe98fcf70a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] E:\adt-bundle\sdk\.android\build-cache\e462fd806129779eda6c078442734c8edeabc59f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] E:\adt-bundle\sdk\.android\build-cache\758b0c416818e9d42441a5e87c8912afec6cda23\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] E:\adt-bundle\sdk\.android\build-cache\06110a6c9b1c91b4cf2086b54c498600bb28ee12\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] E:\adt-bundle\sdk\.android\build-cache\957101b88955101d19b127cb15d4b58d96e85014\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] E:\adt-bundle\sdk\.android\build-cache\398dabfcb993fa7b99b03fa7d7dd609ac533d2eb\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] E:\adt-bundle\sdk\.android\build-cache\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] E:\adt-bundle\sdk\.android\build-cache\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.BLUETOOTH_PRIVILEGED
+ADDED from [as_scian:BleLib:unspecified] E:\as_scian\BleLib\build\intermediates\bundles\default\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [as_scian:BleLib:unspecified] E:\as_scian\BleLib\build\intermediates\bundles\default\AndroidManifest.xml:13:22-76

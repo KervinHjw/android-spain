@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_view_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_titlte" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/image_bg"
+        android:orientation="vertical" >
+
+        <!-- 收缩压 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/xueya_celiang_shoudong_ssy"
+                android:textColor="#000"
+                android:textSize="@dimen/txt20sp" />
+
+            <RelativeLayout
+                android:id="@+id/xueya_shoudong_layout"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rec" >
+
+                <EditText
+                    android:id="@+id/xueya_shoudong_shousuoya"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="#F7F7F7"
+                    android:inputType="number"
+                    android:textColor="#001AF4"
+                    android:textSize="@dimen/txt14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- 舒张压 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/xueya_celiang_shoudong_szy"
+                android:textColor="#000"
+                android:textSize="@dimen/txt20sp" />
+
+            <RelativeLayout
+                android:id="@+id/xueya_shoudong_layout2"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rec" >
+
+                <EditText
+                    android:id="@+id/xueya_shoudong_shuzhangya"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="#F7F7F7"
+                    android:inputType="number"
+                    android:textColor="#001AF4"
+                    android:textSize="@dimen/txt14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <!-- 脉搏 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/xueya_celiang_shoudong_mb"
+                android:textColor="#000"
+                android:textSize="@dimen/txt20sp" />
+
+            <RelativeLayout
+                android:id="@+id/xuetang_shoudong_layout3"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rec" >
+
+                <EditText
+                    android:id="@+id/xueya_shoudong_maibo"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="#F7F7F7"
+                    android:inputType="number"
+                    android:textColor="#001AF4"
+                    android:textSize="@dimen/txt14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- 测量时间 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/xueya_celiang_shoudong_clsj"
+                android:textColor="#000"
+                android:textSize="@dimen/txt20sp" />
+
+            <RelativeLayout
+                android:id="@+id/xueya_shoudong_layout5"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rec" >
+
+                <TextView
+                    android:id="@+id/xueya_shoudong_time"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#001AF4"
+                    android:textSize="@dimen/txt14sp" />
+
+                <ImageView
+                    android:id="@+id/xuetang_shoudong_img"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/down_arrow" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

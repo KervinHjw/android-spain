@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\lead2.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\lead2.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo_lude.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-mdpi\\logo_lude.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\lead1.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-mdpi\\lead1.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\share.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-mdpi\\share.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\lead1.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\lead1.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\share.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\share.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\lead2.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-mdpi\\lead2.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\lead3.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\lead3.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\lead3.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-mdpi\\lead3.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo_lude.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-mdpi\\logo_lude.png"
+    }
+]

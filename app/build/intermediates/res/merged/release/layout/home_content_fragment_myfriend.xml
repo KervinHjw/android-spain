@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/friend_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#207BDA" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/home_content_fragment_myfriend_znjc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt20sp" />
+
+                <ImageView
+                    android:id="@+id/myfriend_add_friend_iv"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:padding="10dp"
+                    android:src="@drawable/home_myfriend_add" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/myfriend_add_Layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:layout_width="240dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/home_myfriend_dialog" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="70dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/home_content_fragment_myfriend_tips"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt22sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="-15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/home_myfriend_xiaoren" />
+
+                <Button
+                    android:id="@+id/myfriend_add_friend_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="30dp"
+                    android:background="#01BCA8"
+                    android:text="@string/home_content_fragment_myfriend_add_friend"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt26sp" />
+            </LinearLayout>
+
+            <com.socks.zlistview.widget.ZListView
+                android:id="@+id/myfriend_zlistview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

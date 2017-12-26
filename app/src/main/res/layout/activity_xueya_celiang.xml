@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/celiang_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <include layout="@layout/common_titlte" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="30dp" >
+
+                <com.en.scian.view.CustomView
+                    android:id="@+id/xueya_celiang_roundProgressBar"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/xueya_celiang_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/celiang_doctor" />
+
+                    <RelativeLayout
+                        android:id="@+id/xueya_celiang_rl"
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/shuohua" >
+
+                        <TextView
+                            android:id="@+id/xueya_celiang_suggestion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:maxEms="15"
+                            android:maxLines="2"
+                            android:text="@string/xueya_celiang_suggestion"
+                            android:textColor="#fff"
+                            android:textSize="@dimen/txt18sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/xueya_celiang_jieshu"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#01BCA8"
+                    android:text="@string/xueya_celiang_jieshu"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt20sp" />
+
+                <Button
+                    android:id="@+id/xueya_celiang_chakan"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#01BCA8"
+                    android:text="@string/xueya_celiang_chakan"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt20sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEDED"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_titlte" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/image_bg"
+                android:paddingRight="10dip" >
+
+                <ImageView
+                    android:layout_width="5dip"
+                    android:layout_height="30dip"
+                    android:layout_centerVertical="true"
+                    android:src="#FF99FE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginStart="15dip"
+                    android:text="@string/personaldata_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt16sp" />
+
+                <EditText
+                    android:id="@+id/ri_name"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/backtf"
+                    android:gravity="end|center_vertical"
+                    android:hint="@string/qingshuruxingming"
+                    android:paddingRight="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/image_bg"
+                android:paddingRight="10dip" >
+
+                <ImageView
+                    android:layout_width="5dip"
+                    android:layout_height="30dip"
+                    android:layout_centerVertical="true"
+                    android:src="#99B3FF" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:text="@string/personaldata_sex"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt16sp" />
+
+                <ToggleButton
+                    android:id="@+id/ri_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/personcenter_switchbutton_sex"
+                    android:checked="true"
+                    android:textColor="@color/white"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/register_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/image_bg"
+                android:paddingRight="10dip" >
+
+                <ImageView
+                    android:layout_width="5dip"
+                    android:layout_height="30dip"
+                    android:layout_centerVertical="true"
+                    android:src="#FFB71E" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:text="@string/personaldata_birthday"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt16sp" />
+
+                <TextView
+                    android:id="@+id/register_birthday"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/backtf"
+                    android:gravity="end|center_vertical"
+                    android:paddingRight="5dip"
+                    android:text="@string/personaldata_chose_birthday"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/image_bg"
+                android:paddingRight="10dip" >
+
+                <ImageView
+                    android:layout_width="5dip"
+                    android:layout_height="30dip"
+                    android:layout_centerVertical="true"
+                    android:src="#01D19E" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginStart="25dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/personaldata_height"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt14sp" />
+
+                    <TextView
+                        android:id="@+id/ri_my_height"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="173.5"
+                        android:textColor="#01D19E"
+                        android:textSize="@dimen/txt16sp" />
+                </LinearLayout>
+
+                <com.en.scian.view.CustomRuler
+                    android:id="@+id/ri_cr_height"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/image_bg"
+                android:paddingRight="10dip" >
+
+                <ImageView
+                    android:layout_width="5dip"
+                    android:layout_height="30dip"
+                    android:layout_centerVertical="true"
+                    android:src="#00A1F4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginStart="25dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/personaldata_weight"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt14sp" />
+
+                    <TextView
+                        android:id="@+id/ri_my_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="58.5"
+                        android:textColor="#00A1F4"
+                        android:textSize="@dimen/txt16sp" />
+                </LinearLayout>
+
+                <com.en.scian.view.CustomRuler
+                    android:id="@+id/ri_cr_weight"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/register_btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_bg"
+                android:text="@string/personaldata_save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

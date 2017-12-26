@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\umeng-analytics-v5.6.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76fed6d2233b958f0c1d589aa366785e0ab5c8f1">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.4_f21d29adf37cb323465dc17bd50c03c0d7b086c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\AHibernate-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85c74cdb3f203dbca88603426640096ebe295b9a">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\AHibernate-1.1_44cb3604524b9700a1551e7da64ab69de33a59fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\afinal_0.5.1_bin_0947d3b6dda089a0a075d3765e6a4329dfc7fa96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\core-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\core-2.2_e09bc704deece5d18c4e4bcfebd35cb9615c28e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Wechat-Moments-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f743f1144aac80632be6d2ab76bff091a447b75">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.6.3_f69da549fa665959a242d37aaf3cbf4d7d73b3c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\andbase.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c52fab11a1df15b8ac25253662a0c7a3d141058">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\andbase_4c4fb8c8c13fd25cae959ab337b25924ff314f17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Wechat-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c392d274c49d5b505a94edcd760c7e0e1536b034">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.6.3_76fd1978f5acca96c6e788fe9a2bd558706372b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e76510af0986842b672c59d29502f3d29866320a">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0.1_561bb663ab431d207043f9181d8309602575348c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\libammsdk_1a281cd5413d498078d511d64156ba90d8463435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Wechat-Core-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="33861299042fa89a53c56f3a15c37ba865a7d2e9">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.6.3_056c307e404d24c7056dc2b9a1149326bb5b6119.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\MobTools.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\MobTools_38f8d701a40514c3907d66fcafd5c8281ca09679.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\mframework.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\mframework_18f623cb5c7615d895b844ced8cb80fd444af547.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Core-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d072ff710fbddf800658d07d735ca3c5464ea04f">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.3_f90e17be469474b7939b0fc2f0e1422eabb51f2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\mpandroidchart.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f42fa1da9dff2f15f7a93bffe543be4b29186a7">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\mpandroidchart_f258a45b5864cd7abf9c46b63a4652299ca56ca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\MobLogCollector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\MobLogCollector_3305a12c6dbd52add124e3422597948f7038d9dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-SinaWeibo-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a080389406bbb3b21310f84df77d7391f355addc">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.3_acf237bd64c71fc7c3d30a9a371e9ea33ef55fe8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_69e300d41475400a04d5b7364f30202c160a9468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\umeng-analytics-v5.6.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="76fed6d2233b958f0c1d589aa366785e0ab5c8f1">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.4_f21d29adf37cb323465dc17bd50c03c0d7b086c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\BleLib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8035b86a71848f209d2b3af4cbecc3296405ef13">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\classes_9635b0e8a9a39a2761f6ff2133504f982e0582a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\jpush-sdk-release1.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99b4fcf27b1215c18bf2d467538bc4206d8b1bcf">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\jpush-sdk-release1.8.2_cff88444201abf24808e56a2af18cce2de65c8cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\afinal_0.5.1_bin_0947d3b6dda089a0a075d3765e6a4329dfc7fa96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\core-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\core-2.2_e09bc704deece5d18c4e4bcfebd35cb9615c28e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\AHibernate-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85c74cdb3f203dbca88603426640096ebe295b9a">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\AHibernate-1.1_44cb3604524b9700a1551e7da64ab69de33a59fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Wechat-Moments-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f743f1144aac80632be6d2ab76bff091a447b75">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.6.3_f69da549fa665959a242d37aaf3cbf4d7d73b3c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e76510af0986842b672c59d29502f3d29866320a">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0.1_561bb663ab431d207043f9181d8309602575348c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\andbase.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c52fab11a1df15b8ac25253662a0c7a3d141058">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\andbase_4c4fb8c8c13fd25cae959ab337b25924ff314f17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Wechat-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c392d274c49d5b505a94edcd760c7e0e1536b034">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.6.3_76fd1978f5acca96c6e788fe9a2bd558706372b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Wechat-Core-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="33861299042fa89a53c56f3a15c37ba865a7d2e9">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.6.3_056c307e404d24c7056dc2b9a1149326bb5b6119.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\mframework.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\mframework_18f623cb5c7615d895b844ced8cb80fd444af547.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\libammsdk_1a281cd5413d498078d511d64156ba90d8463435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\MobLogCollector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\MobLogCollector_3305a12c6dbd52add124e3422597948f7038d9dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\mpandroidchart.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9f42fa1da9dff2f15f7a93bffe543be4b29186a7">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\mpandroidchart_f258a45b5864cd7abf9c46b63a4652299ca56ca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_69e300d41475400a04d5b7364f30202c160a9468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\MobTools.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\MobTools_38f8d701a40514c3907d66fcafd5c8281ca09679.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\jpush-sdk-release1.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="99b4fcf27b1215c18bf2d467538bc4206d8b1bcf">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\jpush-sdk-release1.8.2_cff88444201abf24808e56a2af18cce2de65c8cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-SinaWeibo-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a080389406bbb3b21310f84df77d7391f355addc">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.3_acf237bd64c71fc7c3d30a9a371e9ea33ef55fe8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\as_scian\app\libs\ShareSDK-Core-2.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d072ff710fbddf800658d07d735ca3c5464ea04f">
+        <dex dex="E:\as_scian\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.3_f90e17be469474b7939b0fc2f0e1422eabb51f2e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_titlte" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/ri_tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/register_mobile"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt14sp" />
+
+            <EditText
+                android:id="@+id/ri_edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FBFBFB"
+                android:singleLine="true"
+                android:hint="@string/zhuceyouxiang"
+                android:textSize="@dimen/txt14sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#00A1F4" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/ri_tv_y_z_m"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/register_code"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt14sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/ri_edt_y_z_m"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#FBFBFB"
+                    android:inputType="textPassword"
+                    android:hint="@string/zhucepassword"
+                    android:singleLine="true"
+                    android:maxLength="12"
+                    android:textSize="@dimen/txt14sp" />
+
+                
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue" >
+        </RelativeLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+			android:layout_marginTop="20dp"            
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/linearlayout01" >
+
+                <EditText
+                    android:id="@+id/et_y_z_m"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:digits="@string/yanzhengmaguifan"
+                    android:hint="@string/et_yzm" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_showCode"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/re_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/read_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox_bg"
+                android:checked="true"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:text="@string/register_agree"
+                android:textColor="@color/gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/register_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="@string/register_agreement"
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ri_next"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg_false"
+            android:gravity="center"
+            android:clickable="false"
+            android:text="@string/register_next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt16sp" />
+    </LinearLayout>
+
+</LinearLayout>
