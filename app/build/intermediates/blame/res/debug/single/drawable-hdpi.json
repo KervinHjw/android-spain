@@ -12,12 +12,12 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-hdpi\\zx_code_line.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home_content_menu_friend_2.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-hdpi\\home_content_menu_friend_2.png"
-    },
-    {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home_content_menu_history_1.png",
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-hdpi\\home_content_menu_history_1.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home_content_menu_friend_2.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-hdpi\\home_content_menu_friend_2.png"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\qrcode_3.png",

@@ -132,12 +132,12 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_close.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_recomm_title_back.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_title_back.png"
-    },
-    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_recomm_title_back.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_title_back.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_baidutieba.png",
@@ -244,12 +244,12 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sinaweibo_checked.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_whatsapp.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\logo_whatsapp.png"
-    },
-    {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png",
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_whatsapp.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\logo_whatsapp.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\apptheme_tab_selected_holo.9.png",
@@ -312,12 +312,12 @@
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\logo_yixinmoments.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_yixinmoments.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixinmoments.png"
-    },
-    {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_renren.png",
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\logo_renren.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_yixinmoments.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixinmoments.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_facebookmessenger.png",

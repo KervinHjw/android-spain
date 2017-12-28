@@ -72,44 +72,44 @@
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myfriend_add_item.xml",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\myfriend_add_item.xml"
-    },
-    {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_myfriend_add.xml",
         "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\activity_myfriend_add.xml"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_instructions.xml",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\activity_setting_instructions.xml"
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myfriend_add_item.xml",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\myfriend_add_item.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_instructions.xml",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\activity_setting_instructions.xml"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\personalcenter_mydevices_item.xml",
         "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\personalcenter_mydevices_item.xml"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vp_item1.xml",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\vp_item1.xml"
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skyblue_share_platform_list_item.xml",
         "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\skyblue_share_platform_list_item.xml"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vp_item1.xml",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\vp_item1.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_titlte.xml",
@@ -160,16 +160,16 @@
         "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\xdg_confirm.xml"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xueya_trend_chart_fragment.xml",
-        "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\xueya_trend_chart_fragment.xml"
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_top_item.xml",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\refresh_top_item.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\imageswitch.xml",
         "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\imageswitch.xml"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_top_item.xml",
-        "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\refresh_top_item.xml"
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xueya_trend_chart_fragment.xml",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\xueya_trend_chart_fragment.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -184,12 +184,12 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\layout\\home_content_fragment_history.xml"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customdialog.xml",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\customdialog.xml"
-    },
-    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customdialog.xml",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\layout\\customdialog.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xueya_history_chart.xml",
