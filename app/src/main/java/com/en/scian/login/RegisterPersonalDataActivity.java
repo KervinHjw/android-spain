@@ -223,7 +223,7 @@ public class RegisterPersonalDataActivity extends Activity implements
 				params.put("pwd", pwd);
 				params.put("verifyCode", verifyCode);
 				params.put("userType", USERTYPE);
-				params.put("phone", ""); 
+				//params.put("phone", "");
 				/*if (userType.equals("1")) {
 				} else {
 					params.put("phone", phone);

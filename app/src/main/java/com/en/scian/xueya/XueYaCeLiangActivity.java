@@ -28,6 +28,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.AlphaAnimation;
@@ -119,7 +120,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 		public void handleMessage(Message msg) {
 			switch (msg.what) {
 			case 0:// TODO 设置显示点击查看按钮并上传数据
-
+				prompt("dd");
 				String URL = Urls.SAVE_BLOOD_PRESSURE;
 				AjaxParams abRequestParams = new AjaxParams();
 				abRequestParams.put("userId", SettingUtils.get(
@@ -189,7 +190,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 			case 7:
 				getTimeOut(XueYaCeLiangActivity.this.getResources().getString(R.string.quxiaocaozuo));
 				break;
-			// 测量中
+			// ble测量中
 			case 8:
 				String measuring = (String) msg.obj;
 				int numPosition = 0;
@@ -958,6 +959,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 	private static int i = 0;
 	@Override
 	public void onMeasureResultUpdate(MeasureResult data) {
+        Log.i("ss","********************************"+i);
 		if(i==0){
 			++i;
 			Message msg = handler.obtainMessage();
