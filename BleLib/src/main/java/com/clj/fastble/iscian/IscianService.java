@@ -138,9 +138,10 @@ public class IscianService extends BluetoothService implements IscianFunction {
                     bleMessageCallback.onCancel();
                 }
             }
-        } else {
+        } else if((value[2] & 0xff)!=0x05 && (value[3] & 0xff)!=0x01 && (value[4] & 0xff)!=0xfa){
             switch (currentType) {
                 case MEASURE_RESULT:
+                    Log.i("ddddddd","____________________________________");
                     System.arraycopy(value, 1, measureResult.msg, measureResult.msgLen, value.length-1);
                     measureResult.msgLen += value.length-1;
 

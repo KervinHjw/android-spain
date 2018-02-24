@@ -120,7 +120,6 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 		public void handleMessage(Message msg) {
 			switch (msg.what) {
 			case 0:// TODO 设置显示点击查看按钮并上传数据
-				prompt("dd");
 				String URL = Urls.SAVE_BLOOD_PRESSURE;
 				AjaxParams abRequestParams = new AjaxParams();
 				abRequestParams.put("userId", SettingUtils.get(
@@ -1044,6 +1043,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
+		i = 0;
 		if (mBluetoothService != null){
 			unbindService();
 			mBluetoothService.cancelMeasure();
