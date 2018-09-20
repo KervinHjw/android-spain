@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.en.scian.test">
+    package="com.ludees.scian.test">
 
     <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="25" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.en.scian"
+                     android:targetPackage="com.ludees.scian"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.en.scian"/>
+                     android:label="Tests for com.ludees.scian"/>
 </manifest>

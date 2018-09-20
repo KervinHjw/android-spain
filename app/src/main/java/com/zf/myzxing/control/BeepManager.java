@@ -13,7 +13,7 @@ import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.en.scian.R;
+import com.ludees.scian.R;
 import com.zf.myzxing.camera.PreferencesActivity;
 
 public final class BeepManager implements MediaPlayer.OnCompletionListener,

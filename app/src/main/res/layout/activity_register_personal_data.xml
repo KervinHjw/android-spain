@@ -168,7 +168,7 @@
                         android:textSize="@dimen/txt16sp" />
                 </LinearLayout>
 
-                <com.en.scian.view.CustomRuler
+                <com.ludees.scian.view.CustomRuler
                     android:id="@+id/ri_cr_height"
                     android:layout_width="160dp"
                     android:layout_height="45dp"
@@ -214,7 +214,7 @@
                         android:textSize="@dimen/txt16sp" />
                 </LinearLayout>
 
-                <com.en.scian.view.CustomRuler
+                <com.ludees.scian.view.CustomRuler
                     android:id="@+id/ri_cr_weight"
                     android:layout_width="160dp"
                     android:layout_height="45dp"

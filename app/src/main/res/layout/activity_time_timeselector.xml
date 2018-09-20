@@ -19,7 +19,7 @@
             android:gravity="center"
             android:orientation="horizontal" >
 
-            <com.en.scian.view.PickerView
+            <com.ludees.scian.view.PickerView
                 android:id="@+id/hour_pv"
                 android:layout_width="80dp"
                 android:layout_height="160dp" />
@@ -32,7 +32,7 @@
                 android:textColor="#0096F2"
                 android:textSize="@dimen/txt16sp" />
 
-            <com.en.scian.view.PickerView
+            <com.ludees.scian.view.PickerView
                 android:id="@+id/minute_pv"
                 android:layout_width="80dp"
                 android:layout_height="160dp"

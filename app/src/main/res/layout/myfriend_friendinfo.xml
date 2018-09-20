@@ -68,7 +68,7 @@
         android:layout_marginBottom="3dp"
         android:orientation="vertical" >
 
-        <com.en.scian.view.PullDownScrollView
+        <com.ludees.scian.view.PullDownScrollView
             android:id="@+id/equipment_scroll2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -91,7 +91,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp" >
 
-                        <com.en.scian.view.RoundImageView
+                        <com.ludees.scian.view.RoundImageView
                             android:id="@+id/myfriend_info_head"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -336,7 +336,7 @@
                         </RelativeLayout>
                     </LinearLayout>
 
-                    <com.en.scian.view.ListViewForScrollView
+                    <com.ludees.scian.view.ListViewForScrollView
                         android:id="@+id/myfriend_info_lv"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
@@ -349,7 +349,7 @@
                         android:scrollbars="none" />
                 </LinearLayout>
             </ScrollView>
-        </com.en.scian.view.PullDownScrollView>
+        </com.ludees.scian.view.PullDownScrollView>
     </LinearLayout>
 
 </RelativeLayout>

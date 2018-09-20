@@ -21,7 +21,7 @@
             android:gravity="center_horizontal"
             android:orientation="vertical" >
 
-            <com.en.scian.view.CircleImageView
+            <com.ludees.scian.view.CircleImageView
                 android:id="@+id/home_menu_left_user_head_pic"
                 android:layout_width="80dp"
                 android:layout_height="80dp"

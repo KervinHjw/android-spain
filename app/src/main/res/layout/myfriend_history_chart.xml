@@ -5,7 +5,7 @@
     android:background="@color/main_color"
     android:orientation="vertical" >
 
-    <com.en.scian.view.CoustomScrollView
+    <com.ludees.scian.view.CoustomScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
@@ -83,6 +83,6 @@
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
-    </com.en.scian.view.CoustomScrollView>
+    </com.ludees.scian.view.CoustomScrollView>
 
 </LinearLayout>

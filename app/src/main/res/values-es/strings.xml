@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LORD</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="ios_dialog">打开仿IOS UIAlertView</string>
+    <string name="android_dialog">打开Android系统对话框</string>
+    <string name="prompt">RAPIDO</string>
+    <string name="exit_app">你确定要退出登录吗?</string>
+    <string name="confirm">Confirmar</string>
+    <string name="setting_about_text">鹿得集团是一家集医疗器械的制造，研发，贸易为一体的企业群体，总部设在上海，下属共有7家企业，主要生产基地在温州市永强海滨工业区、南通经济开发区，总面积10万余平方米。集团制造的各类产品，其品质处于国际领先水平，目前已获得CE,FDA,510(K), AAMI-SP10:2002, ISO13485, EN1060-1/2/3等多项国际认证，并且以合理的价格、完善的服务、优越的品质赢得了客户的青睐，产品远销欧洲、美洲、大洋洲、亚洲约90多个国家和地区。集团中高层管理人员均毕业于中国高等学府，大部分来自复旦大学、浙江大学、天津大学等，有着丰富的实际工作经验和企业管理能力。集团致力于产品的研制开发，拥有精良的实验设备，先进的专业技术，各类技术人员50多人，研制的产品已畅销世界各地，获得20多项国家专利，深受广大消费者及业内人士的欢迎。鹿得集团的共生文化，追求与社会、与客户、与员工之间的合理分享，和谐共生，共同发展，为追求人类的健康而不懈努力。\n\n上海煜丰国际贸易有限公司\n地址：上海市卢湾区斜土路768号致远大厦22层C座, 200023\n电话：+86-21-63056696\n传真：+86-21-63036162\n邮箱：market@lordmed.com</string>
+    <string name="setting_instructions_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</string>
+    <string name="proj_name">ShareSDK_TPL</string>
+    <string name="share_sdk">Share SDK</string>
+    <string name="login_with_wechat">用微信登录</string>
+    <string name="login_with_qzone">用QQ空间登录</string>
+    <string name="login_with_other_plat">其他帐号登录</string>
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">授权操作遇到错误，请阅读Logcat输出</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="if_register_needed">如果您需要注册功能…</string>
+    <string name="after_auth">一般来说第三方登录时，第三方平台已经为您完成用户身份校验，您可以放心让用户登录。\n\n但如果您需要判断用户是否为新用户，可以在授权操作完成后，将用户的信息通过字段“HashMap userInfo”携带给login方法。客户端通过“String userId”执行登录请求，如果服务端判定此userId为未注册用户，可以将userInfo发送给注册接口，获取用户在此平台上的昵称、头像等数据，然后执行注册</string>
+    <string name="ok">Confirmar</string>
+    <string name="yonghucunzai">USUARIO EXISTENTE</string>
+    <string name="xueya_celiang_tishi_1">正在测量</string>
+    <string name="xueya_celiang_tishi_2">测量完成</string>
+    <string name="miaohouchongxinhuoqu">秒后重新获取</string>
+
+
+    <!-- 二维码 -->
+    <string name="viewfinderview_status_text1">正在扫描</string>
+    <string name="viewfinderview_status_text2"></string>
+    <string name="msg_camera_framework_bug">对不起，安卓相机遇到了问题。您可能需要重新启动设备。</string>
+    <string name="button_ok">OK</string>
+
+    <!-- 侧滑菜单 -->
+    <string name="home_left_menu_personalinfo_text">Mi Perfil</string>
+    <string name="home_left_menu_message_text">消息中心</string>
+    <string name="home_left_menu_mydevices_text">我的设备</string>
+    <string name="home_left_menu_myqrcode_text">二维码</string>
+    <string name="home_left_menu_setting_text">Ajustes</string>
+    <!-- 注册协议 -->
+    <string name="re_text">Acuerdo de Política de Privacidad\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    Entendemos bien que la privacidad es uno de los más importantes derechos. Es su confianza en nosotros para proporcionarnos información confidencial lo que nos da seguridad para ser serios y responsables.
+    Creemos que toda la información que nos proporciona deberá ser usada solamente para ofrecerle a usted mejores servicios. Por medio de la presente estipulamos un sistema de confidencialidad para proteger su información confidencial en el SITIO WEB DE SALUD SCIAN, con un resumen como se lista aquí
+：\n¿Qué tipo de información confidencial podemos recopilar?
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    Clarificamos el uso de toda la información que podamos pedirle proporcionar. A veces pedimos información adicional, con el único propósito de entender mejor su demanda, así como de ofrecerle un servicio más efectivo.
+La información que necesitamos recopilar incluye su nombre, número telefónico, presión sanguínea y valor del ritmo cardíaco. Usted tiene derecho legal a negarse a nuestra petición sobre cualquier información en cualquier momento.    。\n Protección de su privacidad
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Tomaremos las medidas adecuadas para proteger su información confidencial cuando usted nos proporcione información sensible. Mientras tanto, tomamos acciones razonables y medios de seguridad para garantizar la protección de la información confidencial existente.
+Sin su permiso escrito, nunca compartiremos su información confidencial a terceros no relacionados (incluyendo compañías o individuos), a menos que se requiera por ley gubernamental o mandato legal.
+
+
+    \n Derechos de privacidad
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Valoramos su derecho a la privacidad como prioridad para nosotros, por lo tanto, el SITIO WEB DE SALUD SCIAN, que publicó esta declaración sobre derechos de privacidad, manejará toda la información relacionada de acuerdo con las siguientes reglas.
+EL SITIO WEB DE SALUD SCIAN puede verse en la necesidad de publicar información confidencial según requerimientos o mandatos legales, o crea de buena voluntad que puede ser necesario por las siguientes razones
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;•
+    Acuerdo con una notificación legal o cumplimiento con un procedimiento legal aplicable del SITIO WEB DE SALUD SCIAN \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;•
+    Protección de la propiedad y derechos legales de los usuarios del SITIO WEB DE SALUD SCIAN. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;•
+    Defensa de la seguridad pública de SALUD SCIAN y todos sus usuarios individuales en una emergencia \n Permiso
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    Sobre la premisa de su cumplimiento con los términos y condiciones de este acuerdo, SALUD SCIAN lo empodera con los permisos de no exclusividad, no reautorización, no transferencia y revocabilidad para asegurarse de que usted pueda disfrutar nuestro servicio descargando e instalando las aplicaciones del SITIO WEB DE SALUD SCIAN, que son solamente para uso personal y no comercial. Sin permiso escrito específico de SALUD SCIAN, está estrictamente prohibido reproducir, reimprimir, copiar, modificar, vender, revender, distribuir o evaluar la aplicación del sitio web o usar cualquiera de sus servicios para fines comerciales.
+
+Este acuerdo no autoriza derechos de propiedad intelectual de SALUD SCIAN ni de cualquier tercero relacionado, a menos que así se especifique claramente en el presente.
+
+La autorización empoderada anteriormente se da sobre la premisa de su cumplimiento con las disposiciones de este acuerdo. En el caso de que algún término o alguna condición del acuerdo sean violados, todos los derechos especificados en el presente se darán por rescindidos inmediatamente.
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    Al descargar la aplicación y el servicio de valoración de un proveedor de aplicaciones (como la App Store de Apple) o de una plataforma de distribución de aplicaciones, confirma y acepta que:
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(a) Este acuerdo solamente es válido para las dos partes involucradas, el proveedor de la aplicación no tiene que ver. Nos responsabilizamos solo por la aplicación y no por el proveedor de esta.
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(b)
+    Los proveedores de la aplicación no se encuentran bajo la obligación de proporcionar servicios para mantenimiento o soporte de la aplicación.
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(c)
+    En el caso de que la aplicación no cumpla con la garantía adecuada, el proveedor no será responsable de ninguna obligación relacionada con esta dentro del máximo rango permitido por la ley.
+    \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(d) El proveedor de la aplicación no será responsable por reclamos relacionados con aplicaciones suyas o de terceros, o su propiedad y uso de aplicaciones incluyendo, pero sin limitarse a las siguientes: (i) Reclamos por responsabilidad del producto；(ii) Reclamos sobre fallo de la aplicación con el cumplimiento con las regulaciones o leyes correspondientes, así como (iii) Reclamos sobre protección del consumidor u otras leyes similares；\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(e)
+    Seremos responsables por infracciones de propiedad intelectual, investigaciones, defensa, reconciliación y retiro según este acuerdo, en caso de que haya algún reclamo sobre la aplicación infringiendo propiedad intelectual de un tercero, o su propiedad o uso.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(f)
+    El proveedor de la aplicación y su subsidiaria es la tercera parte beneficiaria, mientras este acuerdo se relacione con la aplicación que usted posee. A partir de esto, después de que usted acepte los términos y condiciones de este acuerdo, el proveedor de la aplicación tiene el derecho a conectar este acuerdo con la aplicación que usted tiene como tercera parte beneficiaria. (Se considerará que el proveedor de la aplicación acepte este derecho.)
+    \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(g) Es su responsabilidad cumplir con todos los términos de servicio aplicables del tercero
+
+    \n Depende del contenido del tercero
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; El tercero proporciona su servicio a manera de consejo, instrucciones y otra información, incluyendo, pero sin limitarse a comida, nutrición y datos de ejercicio; toda esta pertenece a su autor, siendo este no necesariamente de confianza.
+SALUD SCIAN no garantiza la precisión, totalidad o utilidad de la información proporcionada por servicio del tercero; y (II) SALUD SCIAN no adoptará o aceptará consejo o instrucciones del tercero, ni tomará ninguna responsabilidad.
+
+En cualquier caso, SALUD SCIAN no tomará responsabilidad por su pérdida o daño causado por la libertad de su servicio de confianza, o recibido o transmitido por el tercero o cualquier otro contenido.
+
+Usted entiende y acepta ser responsable por el riesgo del servicio una vez accede a él o lo utilice, así como acepta que SALUD SCIAN y sus asociados, proveedores y distribuidores autorizados no serán responsables por información o temas referidos como ofensivos, insultantes o agresivos.
+
+</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="add_friend_tishi">没有朋友多寂寞\\n快加亲友关注他们\\n的健康吧~</string>
+
+    <!-- zzj处理英文版 -->
+    <string name="scanning">Está buscando más, por favor。。。</string>
+    <string name="found_device">ENCUENTRE EL SIGUIENTE EQUIPO, SELECCIONE Y CONECTESE</string>
+    <!-- <string name="login_mobile">手机号 / </string> -->
+    <string name="login_mobile">Correo / </string>
+    <string name="login_code">Contraseña / </string>
+    <string name="forget_password">OLVIDASTE LA CONTRASEÑA</string>
+    <string name="language">Spaish</string>
+    <string name="login_get">立即获取</string>
+    <string name="et_yzm">Ingrese tu verificacion</string>
+    <string name="yanzhengmaguifan">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="yanzhengmagf">0123456789abcdefghijklmnopqrstuvwxyz</string>
+    <string name="login_login">Iniciar Sesión</string>
+    <string name="login_third_login">第三方登录</string>
+    <string name="login_wx_login">使用微信登录</string>
+    <string name="login_wb_login">使用微博登录</string>
+    <string name="messagecenter_friends_request">好友请求</string>
+    <string name="messagecenter_msg">留言消息</string>
+    <string name="messagecenter_system_msg">系统消息</string>
+    <string name="myfriend_add_prompt_addfriendsuccess">添加好友成功</string>
+    <string name="myfriend_add_prompt_confirm">Confirmar</string>
+    <string name="myfriend_add_find">查找</string>
+    <string name="myfriend_add_scan">扫一扫</string>
+    <string name="personal_center_qrcode_scan">请扫描上方二维码</string>
+    <string name="xueya_data_fragment_remeasure">Reintentar</string>
+    <string name="xlistview_header_loading">正在加载</string>
+    <string name="xdg_confirm_no">否</string>
+    <string name="xdg_confirm_yes">是</string>
+    <string name="xueya_history_data_item2_date">12月10日14:10</string>
+    <string name="time_picker_year">en</string>
+    <string name="time_picker_month">de</string>
+    <string name="time_picker_date">el</string>
+    <string name="time_picker_hour">horas</string>
+    <string name="time_picker_minute">minutos</string>
+    <string name="time_item_delete">删除</string>
+    <string name="home_left_menu_lv_item_personal_info">个人资料</string>
+    <string name="loading_dialog_loading_data">数据加载中……</string>
+    <string name="xueya_chart_xyqs">Tendencia de la Presión Arterial</string>
+    <string name="xueya_chart_myc">La Presión del Pulso</string>
+    <string name="refresh_top_item_pullrefresh">下拉刷新</string>
+    <string name="refresh_top_item_lastupdate">上次更新</string>
+    <string name="common_title_search">搜索</string>
+    <string name="common_title_public">发布</string>
+    <string name="personaldata_head">Foto de Perfil</string>
+    <string name="personaldata_info">Perfil</string>
+    <string name="personaldata_name">Nombre</string>
+    <string name="personaldata_modifypwd">修改密码</string>
+    <string name="personaldata_sex">Genero</string>
+    <string name="personaldata_birthday">Cumpleaños</string>
+    <string name="personaldata_chose_birthday">请选择出生日期</string>
+    <string name="personaldata_height">Altura</string>
+    <string name="personaldata_weight">Peso</string>
+    <string name="personaldata_save">Guardar</string>
+    <string name="personalcenter_oldpwd">CONTRASEÑA INICIAL / </string>
+    <string name="forget_mali">ENVIAR CODIGO DE VERIFICACION A CORREO ELETRONICO </string>
+    <string name="miaohoufasong">SEGUNDOS MAS PARA VOLVER A ENVIAR </string>
+    <string name="forget_yzm">Código de validación</string>
+    <string name="personalcenter_newpwd">NUEVA CONTRESEÑA / </string>
+    <string name="personalcenter_confirmpwd">CONFIRME LA CONTRASEÑA / </string>
+    <string name="personalcenter_complete">Guardar</string>
+    <string name="regist_agree">ACEPTAR</string>
+    <string name="register_mobile">Email / </string>
+    <string name="code">CODIGO DE VERIFICACION / </string>
+    <string name="ziliao_nan">M</string>
+    <string name="ziliao_nv">F</string>
+    <string name="register_code">Contraseña / </string>
+    <string name="register_get">立即获取</string>
+    <string name="register_agree">Estoy de acuerdo—Servicio y Privacidad</string>
+    <string name="register_agreement">Servicio y Privacidad</string>
+    <string name="register_next">Siguiente</string>
+    <string name="xuetangceliangzhidao_startmeasure">Empezar</string>
+    <string name="dialog_select_pic_camera">TOMAR FOTO</string>
+    <string name="dialog_select_pic_album">ELIJA DEL ALBUN DE FOTOS</string>
+    <string name="dialog_select_pic_cancel">Cancelar</string>
+    <string name="home_center_fragment_history">Historia</string>
+    <string name="home_center_fragment_trend">Grafica</string>
+    <string name="time_timeselector_delremind">删除提醒</string>
+    <string name="messagecenter_messagelist_item_content">老爸你血压控制的不错哦，请继续保持</string>
+    <string name="messagecenter_messagelist_item_content2">老爸请求添加你为好友</string>
+    <string name="myfriend_item_list_item_person">儿子在08-14 16：54留言：</string>
+    <string name="myfriend_add_item_uesr">用户LD001</string>
+    <string name="myfriend_add_item_add">添加</string>
+    <string name="xueya_chart_fragment_gjbzdzb">Las normas internacionales</string>
+    <string name="xueya_chart_fragment_gy">SYS</string>
+    <string name="xueya_chart_fragment_dy">DIA</string>
+    <string name="screening_data_chosetime">POR FAVOR ELIJA UN PERIODO DE TIEMPO</string>
+    <string name="screening_data_lastoneweek">Semana</string>
+    <string name="screening_data_lasttwoweek">Dos Semana</string>
+    <string name="screening_data_lastonemonth">Un Mes</string>
+    <string name="screening_data_lasttwomonth">Dos Meses</string>
+    <string name="screening_data_confirm">Confirmar</string>
+    <string name="setting_acceptpush">是否接受信息推送</string>
+    <string name="setting_instruction">Uso</string>
+    <string name="setting_clear">efectivo claro</string>
+    <string name="setting_aboutlude">Acerca de Nosotros</string>
+    <string name="setting_manual">手动检测</string>
+    <string name="setting_logout">Cerrar Sesión</string>
+    <string name="xueya_celiang_data">Datos</string>
+    <string name="xueya_celiang_tubiao">Grafica</string>
+    <string name="xueya_celiang_qushi">Tendencias</string>
+    <string name="xueya_celiang_suggestion">SU PRESION SANGUINEA ESTA SIENDO MEDIDA</string>
+    <string name="xueya_celiang_jieshu">Detener</string>
+    <string name="xueya_celiang_chakan">查看</string>
+    <string name="xueya_celiang_shoudong_ssy">SYS</string>
+    <string name="xueya_celiang_shoudong_szy">Dia</string>
+    <string name="xueya_celiang_shoudong_mb">Pul</string>
+    <string name="xueya_celiang_shoudong_clsj">Tiempo</string>
+    <string name="expert_advice_item_title">王教授建议人民群众多参见长跑</string>
+    <string name="expert_advice_item_summary">本活动于今年年初开展和谐校区，健康校区欢迎居民参加长跑活动群众活动现场热情四溢。</string>
+    <string name="home_content_rb_0">Medidas</string>
+    <string name="home_content_rb_1">Historia</string>
+    <string name="home_content_rb_2">健康资讯</string>
+    <string name="home_content_rb_3">子女监测</string>
+    <string name="home_content_fragment_healthinfo_jkzx">健康资讯</string>
+    <string name="home_content_fragment_healthinfo_rcjy">日常建议</string>
+    <string name="home_content_fragment_healthinfo_xyjy">血压建议</string>
+    <string name="home_content_fragment_healthinfo_xtjy">血糖建议</string>
+    <string name="home_content_fragment_myfriend_znjc">子女监测</string>
+    <string name="home_content_fragment_myfriend_tips">没有朋友多寂寞\n快加亲友关注他们\n的健康吧~</string>
+    <string name="home_content_fragment_myfriend_add_friend">添加好友</string>
+    <string name="home_content_fragment_xueyaceliang_date">Dia：</string>
+    <string name="home_content_fragment_xueyaceliang_ssy">SYS</string>
+    <string name="home_content_fragment_xueyaceliang_szy">Dia</string>
+    <string name="home_content_fragment_xueyaceliang_xl">Pul</string>
+    <string name="home_content_fragment_xueyaceliang_kscl">Empezar</string>
+    <string name="home_content_fragment_xueyaceliang_jkzs">Indice de Salud</string>
+    <string name="home_content_fragment_xueyaceliang_avg_ssy">SYS (A)</string>
+    <string name="home_content_fragment_xueyaceliang_avg_szy">DIA (A)</string>
+    <string name="home_content_fragment_xueyaceliang_max_ssy">SYS (MAX)</string>
+    <string name="home_content_fragment_xueyaceliang_max_szy">día (Max)</string>
+    <string name="myfriend_send">发送</string>
+    <string name="myfriend_clrq">测量日期：</string>
+    <string name="myfriend_xy">血压</string>
+    <string name="myfriend_xt">心跳</string>
+    <string name="myfriend_myc">脉压差</string>
+    <string name="myfriend_all">全部留言</string>
+    <string name="timeactivity_settime_remind">定时提醒</string>
+    <string name="xunyiactivity_xunyi">寻医</string>
+    <string name="dailyrecommendationactivity_wzxq">文章详情</string>
+    <string name="xueyaceliangdataactivity_xycljs">Re Confirmar</string>
+    <string name="xueyaceliangzhidaoactivity_sdsr">Ejecutar</string>
+    <string name="xueyaceliangzhidaoactivity_xyclzd">GUIA DE MEDICION</string>
+    <string name="screeningdataactivity_sxsj">Seleccion de Datos</string>
+    <string name="msg_detail">消息详情</string>
+    <string name="msg_list">消息列表</string>
+    <string name="wdewm">我的二维码</string>
+    <string name="wzly">我在%s留言：</string>
+    <string name="zly">在%s留言：</string>
+    <string name="equipmentxuetangactivity_sssb">Dispositivos de Busqueda</string>
+    <string name="equipmentxuetangactivity_sdsr">Ejecutar</string>
+    <string name="equipmentxuetangactivity_wssdsb">Ningun Dispositivo fue Encontrado</string>
+    <string name="equipmentxuetangactivity_lianjie">发现以下设备，请选择连接</string>
+    <string name="tixingshezhi">提醒设置</string>
+    <string name="xinzeng">新增</string>
+    <string name="xinjiantixing">新建提醒</string>
+    <string name="bianjitixing">编辑提醒</string>
+    <string name="gerenxinxi">Mi Perfil</string>
+    <string name="zhucexieyi">Acuerdo de registro</string>
+    <string name="butongyi">DESACUERDO</string>
+    <string name="haoyoulishixueyashuju">好友历史血压数据</string>
+    <string name="haoyouxinxijieshao">好友信息介绍</string>
+    <string name="qingqiutianjianiweihaoyou">请求添加你为好友</string>
+    <string name="lishixueyashuju">Historia</string>
+    <string name="wanshanxinxi">完善信息</string>
+    <string name="zhuce">Registrarse</string>
+    <string name="miaohouchongshi">INTENTAR MAS TARDE</string>
+    <string name="xiaoxitou">Chinese</string>
+    <string name="huoquyanzhengma">获取验证码</string>
+    <string name="denglu">Iniciar cesión</string>
+    <string name="zhaohuimima">RECUPERAR CONTRASEÑA</string>
+    <string name="mianfeizhuce">Registrarse</string>
+    <string name="shuruguanjianzisousuo">输入关键字搜索</string>
+    <string name="duanxinyanzhengma">Ingrese tu contraseña</string>
+    <string name="zhucepassword">Introduzca la contraseña</string>
+    <string name="zhuceyouxiang">POR FAVOR INGRESE SU CORREO ELECTRONICO</string>
+    <string name="chunshuzi">Introduce tu correo electronico</string>
+    <string name="qingshuruxingming">Por favor importa tu nombre</string>
+    <string name="qingzaicishurunindexinmima">INGRESE NUEVAMENTE LA NUEVA CONTRASEÑA</string>
+    <string name="qingshurunindexinmima">POR FAVOR INGRESE SU NUEVA CONTRASEÑA</string>
+    <string name="qingshuruyuanshimima">请输入原始密码</string>
+    <string name="qingshurunindexingming">请输入您的姓名(10个字内)</string>
+    <string name="qingshurushoujihaochazhaohaoyou">请输入手机号查找好友</string>
+    <string name="ninhaimeiyoudengluo">Por favor iniciar</string>
+    <string name="meiyougengduoshujule">没有更多数据了</string>
+    <string name="fuwuqilianjieyichang">La red extraordinariamente</string>
+    <string name="yijingshizuihouyiyele">已经是最后一页了</string>
+    <string name="chenggong">成功</string>
+    <string name="shibai">失败</string>
+    <string name="qinganzhuangweixinkehuduan">请安装微信客户端</string>
+    <string name="qinghuoquyanzhengma">请获取验证码</string>
+    <string name="qingshuruzhengquedeyanzhengma">请输入6~12位有效字符</string>
+    <string name="wangluolianjieyichang">La red extraordinariamente</string>
+    <string name="qingzhuce">NOMBRE DE USUARIO INVALIDO O CONTRASEÑA INCORRECTA</string>
+    <string name="xiugaimimachenggong">CONTRASEÑA CAMBIADA CORRECTAMENTE</string>
+    <string name="youjianyifasong">EMAIL ENVIADO</string>
+    <string name="yonghubucunzai">NOMBRE DE USUARIO INVÁLIDO</string>
+    <string name="shuruyouwu">POR FAVOR INGRESE LA DIRECCION DE CORREO ELECTRICO CORRECTA</string>
+    <string name="shuruyanzhengmayouwu">请输入正确验证码</string>
+    <string name="liangcimimashuruzhengque">POR FAVOR ASEGURESE DE INGRESAR LA CONTRASEÑA CORRECTAMENTE DOS VECES</string>
+    <string name="qqryzmzq">POR FAVOR, ASEGUERESE DE QUE EL CODIGO DE VERIFICACION SEA EL CORRECTO</string>
+    <string name="qqryxzq">POR FAVOR, ASEGURESE QUE LA DIRECCION DE CORREO ELECTRONICO SEA LA CORRECTA </string>
+    <string name="mimacuowu">CONTRASEÑA INCORRECTA</string>
+    <string name="fuwuqiwuxiangying">La red extraordinariamente</string>
+    <string name="cigongnengzanweikaifang">此功能暂未开放</string>
+    <string name="zaianyicituichuchengxu">PRESIONE NUEVAMENTE PARA SALIR</string>
+    <string name="wangluolianjieshibai">La red extraordinariamente</string>
+    <string name="zhengzaijiazaiqingshaohou">CARGANDO POR FAVOR ESPERE</string>
+    <string name="qingshuruchunshuzi">INGRESE SU DIRECCION DE CORREO ELECTRONICO CORRECTAMENTE</string>
+    <string name="yanzhengmayiguoqi">CODIGO DE VERIFICACION CADUCADO, POR FAVOR ENVIE DE NUEVO</string>
+    <string name="zhengzaifasonghaoyouyanzheng">正在发送好友验证...</string>
+    <string name="qingyueduzhucexieyi">POR FAVOR, LEA LAS CONDICIONES DE SERVICIO Y PRIVACIDAD</string>
+    <string name="qingshuruzhengquedeshoujihaoma">POR FAVOR INGRESE EL NUMERO DE TELEFONO CORRECTO</string>
+    <string name="shanchuzhucexinxi">删除注册信息</string>
+    <string name="xuanqushijian">Interval de Tiempo</string>
+    <string name="queding">Confirmar</string>
+    <string name="ninhaimeiyoutianxiexingming">AUN NO HAS INGRESADO TU NOMBRE</string>
+    <string name="qingxuanzechushengriqi">请选择出生日期</string>
+    <string name="ninhaimeiyoutianxieshengri">AUN NO HAS INGRESADO TU FECHA DE CUMPLEAÑOS</string>
+    <string name="ninhaimeiyouxuanzeshengao">AUN NO HAS INGRESADO TU ESTATURA</string>
+    <string name="ninhaimeiyouxuanzetizhong">AUN NO HAS INGRESADO TU PESO</string>
+    <string name="zhucechenggong">REGISTRADO CORRECTAMENTE</string>
+    <string name="yonghuxinxiweikong">用户信息为空！</string>
+    <string name="zhengzaihuoquhaoyouxinxi">正在获取好友信息...</string>
+    <string name="xinxizhengzaigengxin">信息正在更新...</string>
+    <string name="zhengzaihuoquhaoyouliuyanliebiao">正在获取好友留言列表...</string>
+    <string name="zhengzaihuoquxitongxiaoxiliebiao">正在获取系统消息列表...</string>
+    <string name="zhengzaihuoquwodeshebeiliebiao">正在获取我的设备列表...</string>
+    <string name="tianjiahaoyoushibai">添加好友失败</string>
+    <string name="chazhaohaoyou">查找好友</string>
+    <string name="chazhaowancheng">BUSQUEDA COMPLETA</string>
+    <string name="zhengzaichazhaohaoyou">正在查找好友，请稍后</string>
+    <string name="haoyouxinxidianhuahaomaweikong">好友信息，电话号码为空</string>
+    <string name="qingtianxieliuyanneirong">请填写留言内容</string>
+    <string name="zhengzaifasongliuyanqingshaodeng">正在发送留言，请稍等...</string>
+    <string name="fasongliuyanxiaoxishibai">发送留言消息失败！</string>
+    <string name="ninquxiaolecaozuo">CANCELA LA OPERACION</string>
+    <string name="meiyousdcard">SIN SDCARD!</string>
+    <string name="tupianshangchuanshibai">ERROR AL CARGAR IMAGENES</string>
+    <string name="yonghuziliaoxiugaichenggong">PERFIL DE USUARIO MODIFICADO CON EXITO</string>
+    <string name="ninduimimajinxinglexiugai">您对密码进行了修改，是否使用新密码？</string>
+    <string name="mimaxiugaichenggong">密码修改成功！</string>
+    <string name="shifoutuichu">SALIR (SI O NO)</string>
+    <string name="dangqianyishizuixinban">当前已是最新版.</string>
+    <string name="lianjiechaoshiqingshaohouchongshi">CONECTAR MAS TIEMPO, POR FAVOR INTENTE LAS TARDE</string>
+    <string name="zhengzaiqingchuhuancun">ELIMINANDO MEMORA CACHE</string>
+    <string name="qingchuhuancunchenggong">SE ELIMINO LA MEMORIA CACHE CON EXITO</string>
+    <string name="shanchuchenggong">删除成功</string>
+    <string name="zhuangtaigenggaichenggong">状态更改成功</string>
+    <string name="tixingshijianbunengchaoguoshitiao">提醒时间不能超过10条!</string>
+    <string name="zanwushuju">暂无数据</string>
+    <string name="xinzengtixingshezhichenggong">新增提醒设置成功</string>
+    <string name="shijiangengxinchenggong">时间更新成功</string>
+    <string name="zhengzailianjieqingshaohou">CONECTANDO, POR FAVOR ESPERE...</string>
+    <string name="chazhaoshebei">BUSCANDO DISPOSITIVO</string>
+    <string name="zhengzaichazhaoshebeiqingshaohou">Buscando dispositivo</string>
+    <string name="shebeilianjieyichangqingchongxinlianjie">ERROR DE CONEXION, POR FAVOR CONECTAR DE NUEVO</string>
+    <string name="chongbushangqi">NO SE PUEDE LLEGAR CON GAS</string>
+    <string name="celiangzhongfashengcuowu">ERROR DURANTE LA MEDICION</string>
+    <string name="xueyajididianliang">BATERIA BAJA</string>
+    <string name="quxiaocaozuo">CANCELAR LA OPERACION</string>
+    <string name="xueyajizhengzaiceliang">Medidor de Presión Sanguínea está siendo medido</string>
+    <string name="duqushujushibai">ERROR AL LEER LOS DATOS</string>
+    <string name="shebeilianjieyichang">CONEXION INCORRECTA</string>
+    <string name="ninhaimeiyoutianxieshousuoya">NO HA COMPLETADO LA TOMA DE PRESION SISTOLICA</string>
+    <string name="ninhaimeiyoutianxieshuzhangya">NO HA COMPLETADO LA TOMA DE PRESION DIASTOLICA</string>
+    <string name="ninhaimeiyoutianxiemaibo">NO HA COMPLETADO LA FRECUENCIA DE PULSO</string>
+    <string name="ninhaimeiyoutianxieceliangshijian">NO SE HA COMPLETADO EL TIEMPO DE MEDICION</string>
+    <string name="qingshurushidaoliangbaineizhengquedeshuzi">请输入10-200内正确的数字</string>
+    <string name="shousuoyabunengxiaoyushuzhangya">LA PRESION SISTOLICA NO PUEDE SER MENOR QUE LA PRESION DIASTOLICA</string>
+    <string name="shebeiyichang00">ERROR: NO ES POSIBLE LLENAR CON GAS</string>
+    <string name="shebeiyichang01">ERROR: SE PRODUJO UN ERROR EN LA MEDICION, POR FAVOR MIDA DE LA MANERA CORRECTA</string>
+    <string name="shebeiyichang02">ERROR: BATERIA BAJA</string>
+</resources>

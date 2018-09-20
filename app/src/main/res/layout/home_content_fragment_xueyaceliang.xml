@@ -203,7 +203,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/home_xueya_xinlvtu" />
 
-                <com.en.scian.view.MyTextView
+                <com.ludees.scian.view.MyTextView
                     android:id="@+id/home_xueya_pulse"
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
@@ -255,7 +255,7 @@
                         android:textColor="@color/gray"
                         android:textSize="@dimen/txt16sp" />
 
-                    <com.en.scian.view.CustomProgressBarView
+                    <com.ludees.scian.view.CustomProgressBarView
                         android:id="@+id/home_xueya_healthnumber_quan"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

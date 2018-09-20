@@ -29,7 +29,7 @@
             android:textSize="@dimen/txt12sp" />
     </RelativeLayout>
 
-    <com.en.scian.view.PullDownScrollView
+    <com.ludees.scian.view.PullDownScrollView
         android:id="@+id/equipment_scroll"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -83,6 +83,6 @@
                     android:listSelector="#00000000" />
             </RelativeLayout>
         </ScrollView>
-    </com.en.scian.view.PullDownScrollView>
+    </com.ludees.scian.view.PullDownScrollView>
 
 </LinearLayout>

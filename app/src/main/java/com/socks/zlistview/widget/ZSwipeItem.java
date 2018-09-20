@@ -22,7 +22,7 @@ import android.widget.BaseAdapter;
 import android.widget.FrameLayout;
 import android.widget.ListAdapter;
 
-import com.en.scian.R;
+import com.ludees.scian.R;
 import com.socks.zlistview.enums.DragEdge;
 import com.socks.zlistview.enums.ShowMode;
 import com.socks.zlistview.listener.OnSwipeLayoutListener;

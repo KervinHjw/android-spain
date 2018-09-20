@@ -33,7 +33,7 @@ import android.os.Message;
 import android.provider.Browser;
 import android.util.Log;
 
-import com.en.scian.R;
+import com.ludees.scian.R;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.Result;

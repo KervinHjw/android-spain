@@ -26,7 +26,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
-import com.en.scian.R;
+import com.ludees.scian.R;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.MultiFormatReader;

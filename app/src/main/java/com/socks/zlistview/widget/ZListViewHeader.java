@@ -17,7 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.en.scian.R;
+import com.ludees.scian.R;
 
 /**
  * Header

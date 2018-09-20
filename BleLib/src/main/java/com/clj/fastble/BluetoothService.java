@@ -234,14 +234,6 @@ public class BluetoothService extends Service {
             }
 
         });
-        new Handler().postDelayed(new Runnable(){
-            public void run() {
-                if(!IscianService.isConnect){
-                    bg.close();
-                    IscianService.isConnect = false;
-                }
-            }
-        }, 10*1000);
         return bg;
     }
     public void closeConnectBle(){

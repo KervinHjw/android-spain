@@ -19,12 +19,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <!-- <TextView
+             <TextView
                 android:id="@+id/re_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="@dimen/txt14sp" /> -->
-                <ProgressBar
+                android:textSize="@dimen/txt14sp" />
+               <!-- <ProgressBar
         android:id="@+id/pb"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="fill_parent"
@@ -33,11 +33,11 @@
         android:max="100"
         android:visibility="gone"
         android:progressDrawable="@drawable/progress_bar_states" >
-    </ProgressBar>
-                <WebView
+    </ProgressBar>-->
+               <!-- <WebView
         android:id="@+id/webView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" />-->
         </LinearLayout>
     </ScrollView>
 

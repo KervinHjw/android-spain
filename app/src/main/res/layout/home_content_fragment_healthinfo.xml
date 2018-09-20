@@ -85,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-            <com.en.scian.view.NoScrollViewPager
+            <com.ludees.scian.view.NoScrollViewPager
                 android:id="@+id/tabpager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

@@ -1,0 +1,4 @@
+#Tue Aug 14 16:16:11 CST 2018
+base.0=E\:\\scian_en\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <string name="app_name">iScian Health</string>
     <string name="hello_world">Hello world!</string>
@@ -37,6 +37,7 @@
     <string name="yonghubucunzai">User not exist</string>
     <string name="miaohouchongxinhuoqu">s Send again code</string>
     <string name="code">Code / </string>
+    <string name="language">English</string>
     <string name="xiugaimimachenggong">Modify password success</string>
     <string name="youjianyifasong">Invoice email sent</string>
     <string name="et_yzm">Enter Verification Code</string>
@@ -51,6 +52,8 @@
 	<string name="shuruyouwu">Please enter the correct email</string>
 	<string name="chunshuzi">Enter Login Email</string>
 	<string name="duanxinyanzhengma">Enter Login Password</string>
+    <string name="ziliao_nan">M</string>
+    <string name="ziliao_nv">F</string>
 	<string name="zhuceyouxiang">Enter Your Email</string>
 	<string name="zhucepassword">Enter Your Password</string>
 	<string name="re_text">Privacy Policy Agreement\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
@@ -326,6 +329,7 @@ You understand and agree to be responsible for the service risk once access to o
     <string name="lishixueyashuju">History</string>
     <string name="wanshanxinxi">Perfect Information</string>
     <string name="zhuce">Register</string>
+    <string name="qqryxzq">请确认邮箱正确</string>
     <string name="miaohouchongshi">Retry After</string>
     <string name="huoquyanzhengma">Get Code</string>
     <string name="denglu">Login</string>

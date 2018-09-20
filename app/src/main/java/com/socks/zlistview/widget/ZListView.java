@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Scroller;
 
-import com.en.scian.R;
+import com.ludees.scian.R;
 
 /**
  * 

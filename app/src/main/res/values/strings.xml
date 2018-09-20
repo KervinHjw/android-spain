@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <string name="app_name">西恩健康</string>
     <string name="hello_world">Hello world!</string>
@@ -9,6 +9,7 @@
     <string name="prompt">提示</string>
     <string name="exit_app">你确定要退出登录吗?</string>
     <string name="confirm">确定</string>
+    <string name="language"></string>
     <string name="setting_about_text">鹿得集团是一家集医疗器械的制造，研发，贸易为一体的企业群体，总部设在上海，下属共有7家企业，主要生产基地在温州市永强海滨工业区、南通经济开发区，总面积10万余平方米。集团制造的各类产品，其品质处于国际领先水平，目前已获得CE,FDA,510(K), AAMI-SP10:2002, ISO13485, EN1060-1/2/3等多项国际认证，并且以合理的价格、完善的服务、优越的品质赢得了客户的青睐，产品远销欧洲、美洲、大洋洲、亚洲约90多个国家和地区。集团中高层管理人员均毕业于中国高等学府，大部分来自复旦大学、浙江大学、天津大学等，有着丰富的实际工作经验和企业管理能力。集团致力于产品的研制开发，拥有精良的实验设备，先进的专业技术，各类技术人员50多人，研制的产品已畅销世界各地，获得20多项国家专利，深受广大消费者及业内人士的欢迎。鹿得集团的共生文化，追求与社会、与客户、与员工之间的合理分享，和谐共生，共同发展，为追求人类的健康而不懈努力。\n\n上海煜丰国际贸易有限公司\n地址：上海市卢湾区斜土路768号致远大厦22层C座, 200023\n电话：+86-21-63056696\n传真：+86-21-63036162\n邮箱：market@lordmed.com</string>
     <string name="setting_instructions_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</string>
     <string name="proj_name">ShareSDK_TPL</string>
@@ -59,7 +60,9 @@
     <string name="login_mobile">邮箱 / </string>
     <string name="login_code">密码 / </string>
     <string name="forget_password">忘记密码？</string>
-    
+
+    <string name="ziliao_nan">M</string>
+    <string name="ziliao_nv">F</string>
     <string name="login_get">立即获取</string>
     <string name="et_yzm">请输入右侧验证码</string>
     <string name="yanzhengmaguifan">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
@@ -250,6 +253,7 @@
     <string name="shuruyanzhengmayouwu">请输入正确验证码</string>
     <string name="liangcimimashuruzhengque">请确定两次密码输入正确</string>
     <string name="qqryzmzq">请确认验证码正确</string>
+    <string name="qqryxzq">请确认邮箱正确</string>
     <string name="mimacuowu">密码错误</string>
     <string name="fuwuqiwuxiangying">服务器无响应</string>
     <string name="cigongnengzanweikaifang">此功能暂未开放</string>

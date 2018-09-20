@@ -17,7 +17,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.en.scian.R;
+import com.ludees.scian.R;
 import com.google.zxing.ResultPoint;
 import com.zf.myzxing.camera.CameraManager;
 
