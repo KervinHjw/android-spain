@@ -4,6 +4,7 @@ ADDED from E:\scian_en\app\src\main\AndroidManifest.xml:2:1-410:12
 INJECTED from E:\scian_en\app\src\main\AndroidManifest.xml:2:1-410:12
 INJECTED from E:\scian_en\app\src\main\AndroidManifest.xml:2:1-410:12
 INJECTED from E:\scian_en\app\src\main\AndroidManifest.xml:2:1-410:12
+MERGED from [com.android.support:design:22.2.0] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-22.2.0.aar\58efb4f4e1f87bd45db0b31bd782727d\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\54d40644734e48f388d0f6ac32a0833c\AndroidManifest.xml:17:1-31:12
 MERGED from [:BleLib] E:\scian_en\BleLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\86224f1324218bd9da44fb35088ef5d6\AndroidManifest.xml:17:1-28:12
@@ -37,6 +38,8 @@ uses-sdk
 ADDED from E:\scian_en\app\src\main\AndroidManifest.xml:8:5-10:41
 INJECTED from E:\scian_en\app\src\main\AndroidManifest.xml:8:5-10:41
 INJECTED from E:\scian_en\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:22.2.0] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-22.2.0.aar\58efb4f4e1f87bd45db0b31bd782727d\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.0] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-22.2.0.aar\58efb4f4e1f87bd45db0b31bd782727d\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\54d40644734e48f388d0f6ac32a0833c\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\54d40644734e48f388d0f6ac32a0833c\AndroidManifest.xml:21:5-23:78
 MERGED from [:BleLib] E:\scian_en\BleLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
@@ -193,6 +196,8 @@ ADDED from E:\scian_en\app\src\main\AndroidManifest.xml:72:5-81
 		ADDED from E:\scian_en\app\src\main\AndroidManifest.xml:72:22-78
 application
 ADDED from E:\scian_en\app\src\main\AndroidManifest.xml:74:5-402:19
+MERGED from [com.android.support:design:22.2.0] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-22.2.0.aar\58efb4f4e1f87bd45db0b31bd782727d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.0] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-22.2.0.aar\58efb4f4e1f87bd45db0b31bd782727d\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\54d40644734e48f388d0f6ac32a0833c\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\54d40644734e48f388d0f6ac32a0833c\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\86224f1324218bd9da44fb35088ef5d6\AndroidManifest.xml:26:5-20

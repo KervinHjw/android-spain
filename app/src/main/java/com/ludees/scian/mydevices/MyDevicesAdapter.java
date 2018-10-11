@@ -7,6 +7,7 @@ import net.tsz.afinal.http.AjaxCallBack;
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,21 +66,24 @@ public class MyDevicesAdapter extends BaseAdapter {
 		// TODO Auto-generated method stub
 		ViewHolder holder = null;
 		if (convertView == null) {
-			holder = new ViewHolder();
 			convertView = LayoutInflater.from(mContext).inflate(
 					R.layout.personalcenter_mydevices_item, null);
+			holder = new ViewHolder();
 			holder.mydevice_img = (ImageView) convertView
 					.findViewById(R.id.personalcenter_mydevices_img);
 			holder.mydevice_name = (TextView) convertView
 					.findViewById(R.id.personalcenter_mydevices_tv_name);
 			holder.mydevice_delete = (Button) convertView
 					.findViewById(R.id.personalcenter_mydevices_btn_delete);
+			convertView.setTag(holder);
+		}else{
+			holder = (ViewHolder)convertView.getTag();
 		}
 
-		holder.mydevice_img.setBackgroundResource(color.mydevices_left_img2);
 		final MyEquipment myEquipment = list.get(position);
 		int type = myEquipment.getEquipmentType();
 		holder.mydevice_name.setText(myEquipment.getEquipmentNo());
+		holder.mydevice_img.setBackgroundResource(color.mydevices_left_img2);
 		holder.mydevice_delete.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -134,7 +138,7 @@ public class MyDevicesAdapter extends BaseAdapter {
 						ResponseCommon.class);
 				if (common.getStatus() == 0) {
 					ToastUtils.TextToast(mContext, common.getMsg());
-					return;
+					//return;
 				} else if (common.getStatus() == 1) {
 					// 设备删除成功
 					ToastUtils.TextToast(mContext, common.getMsg());

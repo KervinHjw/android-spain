@@ -41,6 +41,7 @@
     <string name="home_left_menu_message_text">消息中心</string>
     <string name="home_left_menu_mydevices_text">我的设备</string>
     <string name="home_left_menu_myqrcode_text">二维码</string>
+    <string name="home_left_menu_help_text">Ayuda</string>
     <string name="home_left_menu_setting_text">Ajustes</string>
     <!-- 注册协议 -->
     <string name="re_text">Acuerdo de Política de Privacidad\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;

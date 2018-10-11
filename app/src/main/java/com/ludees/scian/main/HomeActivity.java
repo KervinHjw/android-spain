@@ -43,12 +43,16 @@ import com.ludees.scian.dao.PushMessageDaoImpl;
 import com.ludees.scian.entity.PushMessage;
 import com.ludees.scian.main.fragment.HistoryDataFragment;
 import com.ludees.scian.main.fragment.XueyaCeliangFragment;
+import com.ludees.scian.messagecenter.MessageCenterActivity;
+import com.ludees.scian.mydevices.MyDevicesActivity;
 import com.ludees.scian.personalcenter.PersonalDataActivity;
+import com.ludees.scian.qrcode.QRCodeActivity;
 import com.ludees.scian.setting.DataCleanManager;
 import com.ludees.scian.setting.SettingActivity;
 import com.ludees.scian.time.TimeActivity;
 import com.ludees.scian.util.BlueToothUtil;
 import com.ludees.scian.util.SettingUtils;
+import com.ludees.scian.util.ToastUtils;
 import com.ludees.scian.view.CircleImageView;
 import com.ludees.scian.view.NoScrollViewPager;
 import com.ludees.scian.view.SlidingMenu;
@@ -117,6 +121,8 @@ public class HomeActivity extends BaseActivity implements OnClickListener,
 	private ImageView left_bg;
 	private Bitmap btp;
 	private BlueToothUtil util;
+	private LinearLayout home_left_layout_help;
+	private ImageView home_left_layout_help_img;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -191,32 +197,37 @@ public class HomeActivity extends BaseActivity implements OnClickListener,
 
 		menu_left_user_name = (TextView) findViewById(R.id.home_menu_left_user_name);
 		menu_left_user_phone = (TextView) findViewById(R.id.home_menu_left_user_phone);
-		//menu_left_message_hongdian = (ImageView) findViewById(R.id.home_left_message_hongdian);
+		menu_left_message_hongdian = (ImageView) findViewById(R.id.home_left_message_hongdian);
 		// 个人资料
 		home_left_layout_personalinfo = (LinearLayout) findViewById(R.id.home_left_layout_personalinfo);
 		home_left_layout_personalinfo_left_img = (ImageView) findViewById(R.id.home_left_layout_personalinfo_left_img);
 		home_left_layout_personalinfo.setOnTouchListener(this);
 		home_left_layout_personalinfo.setOnClickListener(this);
-		/*// 消息中心
-		//home_left_layout_message = (LinearLayout) findViewById(R.id.home_left_layout_message);
-		//home_left_layout_message_left_img = (ImageView) findViewById(R.id.home_left_layout_message_left_img);
+		// 消息中心
+		home_left_layout_message = (LinearLayout) findViewById(R.id.home_left_layout_message);
+		home_left_layout_message_left_img = (ImageView) findViewById(R.id.home_left_layout_message_left_img);
 		home_left_layout_message.setOnTouchListener(this);
 		home_left_layout_message.setOnClickListener(this);
 		// 我的设备
-		//home_left_layout_mydevices = (LinearLayout) findViewById(R.id.home_left_layout_mydevices);
-		//home_left_layout_mydevices_left_img = (ImageView) findViewById(R.id.home_left_layout_mydevices_left_img);
+		home_left_layout_mydevices = (LinearLayout) findViewById(R.id.home_left_layout_mydevices);
+		home_left_layout_mydevices_left_img = (ImageView) findViewById(R.id.home_left_layout_mydevices_left_img);
 		home_left_layout_mydevices.setOnTouchListener(this);
 		home_left_layout_mydevices.setOnClickListener(this);
 		// 二维码
-		//home_left_layout_myqrcode = (LinearLayout) findViewById(R.id.home_left_layout_myqrcode);
-		//home_left_layout_myqrcode_left_img = (ImageView) findViewById(R.id.home_left_layout_myqrcode_left_img);
+		home_left_layout_myqrcode = (LinearLayout) findViewById(R.id.home_left_layout_myqrcode);
+		home_left_layout_myqrcode_left_img = (ImageView) findViewById(R.id.home_left_layout_myqrcode_left_img);
 		home_left_layout_myqrcode.setOnTouchListener(this);
-		home_left_layout_myqrcode.setOnClickListener(this);*/
+		home_left_layout_myqrcode.setOnClickListener(this);
 		// 设置
 		home_left_layout_setting = (LinearLayout) findViewById(R.id.home_left_layout_setting);
 		home_left_layout_setting_left_img = (ImageView) findViewById(R.id.home_left_layout_setting_left_img);
 		home_left_layout_setting.setOnTouchListener(this);
 		home_left_layout_setting.setOnClickListener(this);
+		//帮助
+		home_left_layout_help = (LinearLayout) findViewById(R.id.home_left_layout_help);
+		home_left_layout_help_img = (ImageView) findViewById(R.id.home_left_help_img);
+		home_left_layout_help.setOnTouchListener(this);
+		home_left_layout_help.setOnClickListener(this);
 
 		// 设置数据
 		String userPic = SettingUtils.get(this, "userPic", "");
@@ -254,13 +265,16 @@ public class HomeActivity extends BaseActivity implements OnClickListener,
 					new Intent(this, PersonalDataActivity.class), 999);
 			overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 			break;
-		/*case R.id.home_left_layout_message:// 消息中心
+		case R.id.home_left_layout_message:// 消息中心
 			startActivity(new Intent(this, MessageCenterActivity.class));
 			overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 			break;
 		case R.id.home_left_layout_mydevices:// 我的设备
 			startActivity(new Intent(this, MyDevicesActivity.class));
 			overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
+			break;
+		case R.id.home_left_help_img://帮助
+			overridePendingTransition(R.anim.push_left_in,R.anim.push_left_out);
 			break;
 		case R.id.home_left_layout_myqrcode:// 二维码
 			String userId = SettingUtils.get(this, "userId", "");
@@ -272,9 +286,9 @@ public class HomeActivity extends BaseActivity implements OnClickListener,
 			} else {
 				ToastUtils.TextToast(this, this.getResources().getString(R.string.yonghuxinxiweikong));
 			}
-			break;*/
-		case R.id.home_left_layout_setting:// 设置
-			startActivity(new Intent(this, SettingActivity.class));
+			break;
+			case R.id.home_left_layout_setting:// 设置
+				startActivity(new Intent(this, SettingActivity.class));
 			overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 			break;
 		}
@@ -435,6 +449,12 @@ public class HomeActivity extends BaseActivity implements OnClickListener,
 						.setVisibility(View.INVISIBLE);
 			} else if (event.getAction() == MotionEvent.ACTION_DOWN) {
 				home_left_layout_mydevices_left_img.setVisibility(View.VISIBLE);
+			}
+		} else if(v == home_left_layout_help){//帮助
+			if(event.getAction() == MotionEvent.ACTION_UP){
+				home_left_layout_help_img.setVisibility(View.INVISIBLE);
+			}else if(event.getAction() == MotionEvent.ACTION_DOWN){
+				home_left_layout_help_img.setVisibility(View.VISIBLE);
 			}
 		} else if (v == home_left_layout_myqrcode) {// 二维码
 			if (event.getAction() == MotionEvent.ACTION_UP) {

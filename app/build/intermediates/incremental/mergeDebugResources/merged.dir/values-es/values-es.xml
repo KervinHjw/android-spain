@@ -121,6 +121,7 @@
     <string name="home_content_rb_1">Historia</string>
     <string name="home_content_rb_2">健康资讯</string>
     <string name="home_content_rb_3">子女监测</string>
+    <string name="home_left_menu_help_text">Ayuda</string>
     <string name="home_left_menu_lv_item_personal_info">个人资料</string>
     <string name="home_left_menu_message_text">消息中心</string>
     <string name="home_left_menu_mydevices_text">我的设备</string>

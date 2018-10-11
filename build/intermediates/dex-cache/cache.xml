@@ -13,92 +13,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\scian_en\app\libs\jpush-sdk-release1.8.2.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="99b4fcf27b1215c18bf2d467538bc4206d8b1bcf">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\d0ee36913238430e0772672efd4f9aac\jars\classes.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\24.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\86224f1324218bd9da44fb35088ef5d6\jars\classes.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\20.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef0d5fcbb2004b1063f812b3cfd676b1\jars\classes.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\scian_en\app\libs\core-2.2.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\37bc3b49db64d752a6ffe1822bec83d0\jars\classes.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\22.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\scian_en\app\libs\afinal_0.5.1_bin.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\scian_en\app\libs\mframework.jar"
-        jumboMode="false"
-        min-sdk-version="18"
-        optimize="true"
-        revision="26.0.2"
-        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
-        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\7.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\scian_en\BleLib\build\intermediates\intermediate-jars\release\classes.jar"
         jumboMode="false"
         min-sdk-version="18"
         optimize="true"
         revision="26.0.2"
-        sha1="adbea5941c13739c586bd3ca136404e999c941f5">
+        sha1="e4ca9761f7561888ba7d2e178d54af63914ebff5">
         <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\29.jar" />
     </item>
     <item
@@ -120,6 +40,26 @@
         revision="26.0.2"
         sha1="11b09244aedaa51bfd09269637be7c32c60da314">
         <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\scian_en\app\libs\jpush-sdk-release1.8.2.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="99b4fcf27b1215c18bf2d467538bc4206d8b1bcf">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\d0ee36913238430e0772672efd4f9aac\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\24.jar" />
     </item>
     <item
         is-multidex="false"
@@ -153,6 +93,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\86224f1324218bd9da44fb35088ef5d6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9122e1d7469b82c6a29be4de313a875f\jars\classes.jar"
         jumboMode="false"
         min-sdk-version="18"
@@ -160,6 +110,16 @@
         revision="26.0.2"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
         <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef0d5fcbb2004b1063f812b3cfd676b1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\21.jar" />
     </item>
     <item
         is-multidex="false"
@@ -193,6 +153,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\scian_en\app\libs\core-2.2.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\scian_en\app\libs\MobTools.jar"
         jumboMode="false"
         min-sdk-version="18"
@@ -200,6 +170,36 @@
         revision="26.0.2"
         sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
         <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\37bc3b49db64d752a6ffe1822bec83d0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\scian_en\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\scian_en\app\libs\mframework.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="E:\scian_en\app\build\intermediates\transforms\preDex\release\7.jar" />
     </item>
     <item
         is-multidex="false"
