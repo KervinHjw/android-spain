@@ -923,6 +923,7 @@ function login(form){
     <string name="xueyaceliangzhidaoactivity_xyclzd">血压测量指导</string>
     <string name="xueyajididianliang">血压计低电量</string>
     <string name="xueyajizhengzaiceliang">血压计正在测量,请保持正确姿势不要说话</string>
+    <string name="xueyazhishi">血压知识</string>
     <string name="xunyiactivity_xunyi">寻医</string>
     <string name="yanzhengmagf">0123456789abcdefghijklmnopqrstuvwxyz</string>
     <string name="yanzhengmaguifan">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
