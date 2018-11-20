@@ -69,6 +69,7 @@ public class XueYaChartFragment extends Fragment {
 	private int x = 0, y = 0;
 	private FinalHttp fh;
 	private View view;
+	private ImageView imageView;
 
 	@SuppressLint("InflateParams")
 	@Override
@@ -117,7 +118,12 @@ public class XueYaChartFragment extends Fragment {
 		userId = SettingUtils.get(mContext, "userId", "");
 		bloodPressureId = getActivity().getIntent().getIntExtra(
 				"bloodPressureId", 0);
-
+		imageView = (ImageView) view.findViewById(R.id.color_img);
+		if(!SettingUtils.get(mContext,"kpa",false)){
+			imageView.setBackgroundResource(R.drawable.xueya_colour710);
+		}else{
+			imageView.setBackgroundResource(R.drawable.xueya_colour720);
+		}
 		xueya_chart_view = (LinearLayout) view
 				.findViewById(R.id.xueya_chart_view);
 		xueya_chart_rl = (RelativeLayout) view
@@ -239,6 +245,11 @@ public class XueYaChartFragment extends Fragment {
 				}
 				if (isFirstIn) {
 					getDongTaiTu(x, y, 1000);
+					/*if(!SettingUtils.get(mContext,"kpa",false)){
+						getDongTaiTu(x, y, 1000);
+					}else{
+						getDongTaiTu((int)(x/7.5), (int)(y/7.5),1000);
+					}*/
 				}
 			}
 		});

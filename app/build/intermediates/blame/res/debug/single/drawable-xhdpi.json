@@ -20,12 +20,12 @@
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tumblr.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_qq.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qq.png"
-    },
-    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_alipayshare.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_alipayshare.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_qq.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qq.png"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_back.png",
@@ -132,12 +132,12 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_close.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png"
-    },
-    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_recomm_title_back.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_title_back.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_baidutieba.png",
@@ -166,6 +166,10 @@
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_line.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\logo_line.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zd04.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\zd04.png"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_tencentweibo.png",
@@ -244,12 +248,12 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sinaweibo_checked.png"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png",
-        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png"
-    },
-    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_whatsapp.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\logo_whatsapp.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\apptheme_tab_selected_holo.9.png",
@@ -312,12 +316,12 @@
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\logo_yixinmoments.png"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_renren.png",
-        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\logo_renren.png"
-    },
-    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_yixinmoments.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixinmoments.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_renren.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\logo_renren.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_facebookmessenger.png",
@@ -362,6 +366,10 @@
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_instapaper.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instapaper.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\danweibk.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\danweibk.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\apptheme_tab_unselected_focused_holo.9.png",
@@ -632,6 +640,10 @@
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\img_cancel.png"
     },
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zd02.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\zd02.png"
+    },
+    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_wechat_checked.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechat_checked.png"
     },
@@ -650,6 +662,10 @@
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_laiwangmoments.png",
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_laiwangmoments.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xueya_colour720.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\xueya_colour720.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_kakaostory_checked.png",
@@ -680,6 +696,10 @@
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_plats_less.png"
     },
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dw.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\dw.png"
+    },
+    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_qzone.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone.png"
     },
@@ -706,6 +726,10 @@
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_qzone_checked.png",
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone_checked.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xueya_colour710.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\xueya_colour710.png"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_wechat_checked.png",
@@ -918,6 +942,10 @@
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_editpage_divider.9.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_divider.9.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zd05.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\zd05.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_douban.png",
@@ -1276,6 +1304,10 @@
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\logo_evernote.png"
     },
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zd01.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\zd01.png"
+    },
+    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_yixin.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixin.png"
     },
@@ -1314,6 +1346,10 @@
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_whatsapp_checked.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_whatsapp_checked.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bz.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\bz.png"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_recomm_list_item_back.9.png",
@@ -1426,6 +1462,10 @@
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_editpage_divider.9.png",
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_divider.9.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zd03.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-xhdpi\\zd03.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skyblue_logo_flickr_checked.png",

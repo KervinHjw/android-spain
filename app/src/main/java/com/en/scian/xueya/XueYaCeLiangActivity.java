@@ -20,6 +20,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -43,6 +44,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.clj.fastble.data.ScanResult;
 import com.clj.fastble.exception.BleException;
 import com.clj.fastble.iscian.IscianService;
 import com.clj.fastble.iscian.bean.MeasureResult;
@@ -153,8 +155,10 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 				break;
 			// 测量成功
 			case 1:
-				mBluetoothService.cancelMeasure();
-				mBluetoothService.closeConnect();
+				if(getIntent().getBooleanExtra("again",false)){
+					mBluetoothService.cancelMeasure();
+				}
+				//mBluetoothService.closeConnect();
 				int[] result = (int[]) msg.obj;
 				getNew = result[1];
 				maibo = result[0];
@@ -294,7 +298,6 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 		Intent bindIntent = new Intent(this, IscianService.class);
 		this.bindService(bindIntent, mFhrSCon, Context.BIND_AUTO_CREATE);
 	}
-
 	private void unbindService() {
 		this.unbindService(mFhrSCon);
 	}
@@ -366,7 +369,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 		case R.id.search_leftLayout:
 			if(isBle){
 				mBluetoothService.cancelMeasure();
-				mBluetoothService.closeConnect();
+				//mBluetoothService.closeConnect();
 			}else{
 				closeTh = new Thread(new Runnable() {
 
@@ -384,7 +387,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 		case R.id.xueya_celiang_jieshu:// 测量中途结束
 			if(isBle){
 				mBluetoothService.cancelMeasure();
-				mBluetoothService.closeConnect();
+				//mBluetoothService.closeConnect();
 				finish();
 			}else{
 				closeTh = new Thread(new Runnable() {
@@ -413,7 +416,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 	public void onBackPressed() {
 		if(isBle){
 			mBluetoothService.cancelMeasure();
-			mBluetoothService.closeConnect();
+			//mBluetoothService.closeConnect();
 		}else{
 			closeTh = new Thread(new Runnable() {
 
@@ -688,11 +691,14 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 				xueya_celiang_chakan.setVisibility(View.VISIBLE);
 				Intent intent = new Intent(XueYaCeLiangActivity.this,
 						XueYaCeLiangDataActivity.class);
+				Bundle bundle = new Bundle();
+				bundle.putParcelable("device",device);
+				intent.putExtra("bundle",bundle);
 				intent.putExtra("num", 1);
 				intent.putExtra("isFirst", false);
 				intent.putExtra("celiang", true);
 				startActivity(intent);
-				finish();
+				//finish();
 			}
 		});
 	}
@@ -1047,7 +1053,7 @@ public class XueYaCeLiangActivity extends BaseActivity implements
 		if (mBluetoothService != null){
 			unbindService();
 			mBluetoothService.cancelMeasure();
-			mBluetoothService.closeConnect();
+			//mBluetoothService.closeConnect();
 		}
 		super.onDestroy();
 		dialogAndTextThread = null;

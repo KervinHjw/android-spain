@@ -79,7 +79,7 @@ public class HistoryDataFragment extends Fragment implements OnClickListener {
 		return view;
 	}
 
-	private void init(View view) {
+	private void init(View view){
 		search_leftLayout = (LinearLayout) view
 				.findViewById(R.id.search_leftLayout);
 		search_titleText = (TextView) view.findViewById(R.id.search_titleText);

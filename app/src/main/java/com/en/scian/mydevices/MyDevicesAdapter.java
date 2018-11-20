@@ -74,8 +74,10 @@ public class MyDevicesAdapter extends BaseAdapter {
 					.findViewById(R.id.personalcenter_mydevices_tv_name);
 			holder.mydevice_delete = (Button) convertView
 					.findViewById(R.id.personalcenter_mydevices_btn_delete);
+			convertView.setTag(holder);
+		}else{
+			holder = (ViewHolder) convertView.getTag();
 		}
-
 		holder.mydevice_img.setBackgroundResource(color.mydevices_left_img2);
 		final MyEquipment myEquipment = list.get(position);
 		int type = myEquipment.getEquipmentType();

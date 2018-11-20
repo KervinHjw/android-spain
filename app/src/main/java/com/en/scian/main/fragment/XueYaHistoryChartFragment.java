@@ -103,35 +103,53 @@ public class XueYaHistoryChartFragment extends Fragment {
 		SettingUtils.set(getActivity(), "isFirstTrendChart", "2");
 		switch (num) {
 		case 0:
-			URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=1";
+			if(!SettingUtils.get(mContext,"kpa",false)){
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=1";
+			}else{
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=1"+"&flag=1";
+			}
 			URL2 = Urls.GET_HISTORY_CHART_DATA_DOWN + "userId=" + userId
 					+ "&type=1";
 			getWeb1(URL);
 			getWeb2(URL2);
 			break;
 		case 1:
-			URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=1";
+			if(!SettingUtils.get(mContext,"kpa",false)){
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=1";
+			}else{
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=1"+"&flag=1";
+			}
 			URL2 = Urls.GET_HISTORY_CHART_DATA_DOWN + "userId=" + userId
 					+ "&type=1";
 			getWeb1(URL);
 			getWeb2(URL2);
 			break;
 		case 2:
-			URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=2";
+			if(!SettingUtils.get(mContext,"kpa",false)){
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=2";
+			}else{
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=2"+"&flag=1";
+			}
 			URL2 = Urls.GET_HISTORY_CHART_DATA_DOWN + "userId=" + userId
 					+ "&type=2";
 			getWeb1(URL);
 			getWeb2(URL2);
 			break;
 		case 3:
-			URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=3";
-			URL2 = Urls.GET_HISTORY_CHART_DATA_DOWN + "userId=" + userId
-					+ "&type=3";
+			if(!SettingUtils.get(mContext,"kpa",false)){
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=3";
+			}else{
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=3"+"&flag=1";
+			}
 			getWeb1(URL);
 			getWeb2(URL2);
 			break;
 		case 4:
-			URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=4";
+			if(!SettingUtils.get(mContext,"kpa",false)){
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=4";
+			}else{
+				URL = Urls.GET_HISTORY_CHART_DATA + "userId=" + userId + "&type=4"+"&flag=1";
+			}
 			URL2 = Urls.GET_HISTORY_CHART_DATA_DOWN + "userId=" + userId
 					+ "&type=4";
 			getWeb1(URL);

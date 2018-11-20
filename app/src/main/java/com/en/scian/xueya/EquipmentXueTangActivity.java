@@ -134,6 +134,40 @@ public class EquipmentXueTangActivity extends BaseActivity implements
 			super.handleMessage(msg);
 		}
 	};
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		device.clear();
+		name.clear();
+		adapter.notifyDataSetChanged();
+		// 设置广播信息过滤
+		IntentFilter intentFilter = new IntentFilter();
+		intentFilter.addAction(BluetoothDevice.ACTION_FOUND);
+		intentFilter.addAction(BluetoothDevice.ACTION_BOND_STATE_CHANGED);
+		intentFilter.addAction(BluetoothAdapter.ACTION_SCAN_MODE_CHANGED);
+		intentFilter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
+		// 注册广播接收器，接收并处理搜索结果
+		registerReceiver(fundReceiver, intentFilter);
+		// 寻找蓝牙设备，android会将查找到的设备以广播形式发出去(该函数时异步的，调用后立即返回，返回值表示搜索是否成功开始,搜索处理通常包括一个12秒钟的查询扫描)
+		/*boolean discovery = bluetoothAdapter.startDiscovery();
+		if (discovery) {
+			// 点击倒数12秒
+			new Timecount(2 * 1000, 1000).start();
+		}*/
+		checkPermissions();
+		new Timecount(8 * 1000, 1000).start();
+		new Handler().postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				if(isFinish){
+					mBluetoothService.cancelMeasure();
+					bluetoothAdapter.startDiscovery();
+				}
+			}
+		}, 5000);
+	}
+
 	private void init() {
 		name = new ArrayList<String>();
 		ExampleApplication.getInstance().addActivity(this);
@@ -199,7 +233,7 @@ public class EquipmentXueTangActivity extends BaseActivity implements
 				mDevice = adapter.getItem(position).getDevice();
 				if("Dual-SPP".equals(adapter.getItem(position).getDevice().getName())){
 					success(adapter.getItem(position).getDevice());
-				}else{
+			}else{
 					if (mBluetoothService != null) {
 						mBluetoothService.cancelScan();
 						mBluetoothService.connectDevice(adapter.getItem(position));
@@ -357,7 +391,7 @@ public class EquipmentXueTangActivity extends BaseActivity implements
 
 		@Override
 		public void onScanning(ScanResult scanResult) {
-			if(!TextUtils.isEmpty(scanResult.getDevice().getName())){
+			if(!TextUtils.isEmpty(scanResult.getDevice().getName())&&"LD".equals(scanResult.getDevice().getName())){
 				adapter.addResult(scanResult);
 				adapter.notifyDataSetChanged();
 			}
@@ -396,6 +430,7 @@ public class EquipmentXueTangActivity extends BaseActivity implements
 			in.putExtra("bundle", bundle);
 			in.putExtra("bluetooth", true);
 			startActivity(in);
+			finish();
 		}
 
 	};

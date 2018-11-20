@@ -134,6 +134,21 @@
         <activity
             android:name="com.en.scian.main.HomeActivity"
             android:screenOrientation="portrait" />
+        <!--帮助中心（血压知识）-->
+        <activity android:name=".help.KnowledgeActivity"
+            android:screenOrientation="portrait"/>
+        <!--帮助中心（常见问题）-->
+        <activity android:name=".help.QuestionActivity"
+            android:screenOrientation="portrait"/>
+        <!--帮助中心（使用指南）-->
+        <activity android:name=".help.GuideHelpActivity"
+            android:screenOrientation="portrait"/>
+        <!--血压知识详情-->
+        <activity android:name=".help.XueYaKnowledgeActivity"
+            android:screenOrientation="portrait"/>
+        <!--常见问题详情-->
+        <activity android:name=".help.XueYaQuestionAcitvity"
+            android:screenOrientation="portrait"/>
         <!-- 个人中心（个人资料） -->
         <activity
             android:name="com.en.scian.personalcenter.PersonalDataActivity"
@@ -197,6 +212,9 @@
         <activity
             android:name="com.en.scian.myfriend.AddFriendActivity"
             android:screenOrientation="portrait" />
+        <!--帮助-->
+        <activity android:name=".help.HelpActivity"
+            android:screenOrientation="portrait" />
         <!-- 我的好友 (二维码扫描) -->
         <activity
             android:name="com.zf.myzxing.CaptureActivity"
@@ -221,6 +239,10 @@
         <!-- 血压测量指导activity -->
         <activity
             android:name="com.en.scian.xueya.XueYaCeLiangZhiDaoActivity"
+            android:screenOrientation="portrait" />
+        <!--单位换算-->
+        <activity
+            android:name=".help.UnitActivity"
             android:screenOrientation="portrait" />
         <!-- 血压测量手动activity -->
         <activity

@@ -96,6 +96,7 @@ public class XueYaCeLiangDataActivity extends FragmentActivity implements
 				.findViewById(R.id.search_rightLayout);
 		search_right_img = (ImageView) this.findViewById(R.id.search_right_img);
 		search_rightLayout.setOnClickListener(this);
+		search_rightLayout.setVisibility(View.GONE);
 		search_leftLayout.setOnClickListener(this);
 		search_titleText.setText(getResources().getString(R.string.xueyaceliangdataactivity_xycljs));
 		search_right_img.setVisibility(View.VISIBLE);

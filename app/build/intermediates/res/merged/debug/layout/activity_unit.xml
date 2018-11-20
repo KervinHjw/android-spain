@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/unit_title"
+        layout="@layout/common_titlte" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/unit_title"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/danweibk"
+            android:inputType="number"
+            android:digits="1234567890."
+            android:layout_alignParentBottom="true"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:layout_marginLeft="10dp" />
+
+
+        <TextView
+            android:id="@+id/unit_danwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/et_input"
+            android:layout_marginLeft="5dp"
+            android:text="kPa"
+            android:textSize="@dimen/txt18sp" />
+
+        <TextView
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/unit_danwei"
+            android:layout_marginLeft="5dp"
+            android:text="="
+            android:textSize="@dimen/txt28sp" />
+        <EditText
+            android:id="@+id/et_output"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/danweibk"
+            android:layout_alignParentBottom="true"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:focusable="false"
+            />
+        <TextView
+            android:id="@+id/danwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/et_output"
+            android:textSize="@dimen/txt18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:text="mmHg"
+            />
+        <Button
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/danwei"
+            android:textSize="@dimen/txt20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:text="@string/jisuan"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -83,6 +83,8 @@ public class XueyaCeliangFragment extends Fragment implements OnClickListener {
 	 * 获取蓝牙adapter
 	 */
 	private BluetoothAdapter bluetoothAdapter;
+	private TextView company01;
+	private TextView company02;
 
 	@SuppressLint("InflateParams")
 	@Override
@@ -102,6 +104,8 @@ public class XueyaCeliangFragment extends Fragment implements OnClickListener {
 		xueya_celiang = (Button) view.findViewById(R.id.xueya_celiang);
 		initChart1(view);
 		initChart2(view);
+		company01 = (TextView) view.findViewById(R.id.home_company01);
+		company02 = (TextView) view.findViewById(R.id.home_company02);
 		home_xueya_celiangtime = (TextView) view
 				.findViewById(R.id.home_xueya_celiangtime);
 		home_xueya_shousuoya = (TextView) view
@@ -327,8 +331,8 @@ public class XueyaCeliangFragment extends Fragment implements OnClickListener {
 			public void onFailure(Throwable t, int errorNo, String strMsg) {
 				// TODO Auto-generated method stub
 				super.onFailure(t, errorNo, strMsg);
-				Toast.makeText(getActivity(), strMsg, Toast.LENGTH_SHORT)
-						.show();
+				/*Toast.makeText(getActivity(), strMsg, Toast.LENGTH_SHORT)
+						.show();*/
 			}
 
 			@Override
@@ -358,11 +362,36 @@ public class XueyaCeliangFragment extends Fragment implements OnClickListener {
 						XueyaShouyeBean.class);
 				data = bean.getData();
 				if (data != null) {
+					if(!SettingUtils.get(getContext(),"kpa",false)){
+						home_xueya_shousuoya.setText(data.getBloodPressureClose()
+								+ "");
+						home_xueya_shuzhangya.setText(data.getBloodPressureOpen()
+								+ "");
+						company01.setText("mmHg");
+						company02.setText("mmHg");
+						home_xueya_shousuoya_average.setText(data
+								.getBloodPressureCloseAvg()+ "");
+						home_xueya_shouzhangya_average.setText(data
+								.getBloodPressureOpenAvg() + "");
+						home_xueya_shousuoya_max.setText(data
+								.getBloodPressureCloseMax()+ "");
+						home_xueya_shouzhangya_max.setText(data
+								.getBloodPressureOpenMax() + "");
+					}else{
+						home_xueya_shousuoya_average.setText(Double.parseDouble(String.format("%.1f",data
+								.getBloodPressureCloseAvg()/7.5)) + "");
+						home_xueya_shouzhangya_average.setText(Double.parseDouble(String.format("%.1f",data
+								.getBloodPressureOpenAvg()/7.5) )+ "");
+						home_xueya_shousuoya_max.setText(Double.parseDouble(String.format("%.1f",data
+								.getBloodPressureCloseMax()/7.5 ))+ "");
+						home_xueya_shouzhangya_max.setText(Double.parseDouble(String.format("%.1f",data
+								.getBloodPressureOpenMax()/7.5)) + "");
+						home_xueya_shousuoya.setText(String.format("%.1f", data.getBloodPressureClose()/7.5));
+						home_xueya_shuzhangya.setText(String.format("%.1f",data.getBloodPressureOpen()/7.5));
+						company01.setText("kpa");
+						company02.setText("kpa");
+					}
 					home_xueya_celiangtime.setText(data.getMeasureTime());
-					home_xueya_shousuoya.setText(data.getBloodPressureClose()
-							+ "");
-					home_xueya_shuzhangya.setText(data.getBloodPressureOpen()
-							+ "");
 					home_xueya_pulse.setText(data.getPulse() + "");
 					int healthNumber = data.getHealthNumber();
 					if (healthNumber < 35) {
@@ -411,14 +440,8 @@ public class XueyaCeliangFragment extends Fragment implements OnClickListener {
 					home_xueya_healthnumber_quan.setProgress(0);
 					home_xueya_healthnumber_quan
 							.setTargetProgress(healthNumber);
-					home_xueya_shousuoya_average.setText(data
-							.getBloodPressureCloseAvg() + "");
-					home_xueya_shouzhangya_average.setText(data
-							.getBloodPressureOpenAvg() + "");
-					home_xueya_shousuoya_max.setText(data
-							.getBloodPressureCloseMax() + "");
-					home_xueya_shouzhangya_max.setText(data
-							.getBloodPressureOpenMax() + "");
+
+
 
 					for (int i = 0; i < 3; i++) {
 						x.add(" ");

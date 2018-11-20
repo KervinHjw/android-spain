@@ -110,8 +110,14 @@ public class XueYaTrendChartFragment extends Fragment {
 		if (bloodPressureId.equals("0")) {
 			bloodPressureId = "";
 		}
-		URL = Urls.GET_DATA_CHART + "userId=" + userId + "&bloodPressureId="
-				+ bloodPressureId;
+		if(!SettingUtils.get(mContext,"kpa",false)){
+			URL = Urls.GET_DATA_CHART + "userId=" + userId + "&bloodPressureId="
+					+ bloodPressureId;
+		}else{
+			URL = Urls.GET_DATA_CHART + "userId=" + userId + "&bloodPressureId="
+					+ bloodPressureId+"&flag=1";
+		}
+
 		URL2 = Urls.GET_DATA_CHART_DOWN + "userId=" + userId
 				+ "&bloodPressureId=" + bloodPressureId;
 		getWeb1(URL);

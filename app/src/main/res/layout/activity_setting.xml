@@ -43,15 +43,57 @@
                 android:textOn="" />
         </RelativeLayout>
     </LinearLayout> -->
-
     <RelativeLayout
-        android:id="@+id/setting_instructions"
+        android:id="@+id/setting_unit"
         android:layout_width="match_parent"
         android:layout_height="50dip"
         android:layout_marginTop="10dip"
         android:background="@color/white"
         android:paddingLeft="20dip"
         android:paddingRight="20dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/home_left_menu_danwei_text"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/txt16sp" />
+        <TextView
+            android:id="@+id/setting_tv_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:text="mmHg"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/setting_tv_unit"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:text="@string/dangqian"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/common_icon_arrow" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/setting_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="1dip"
+        android:background="@color/white"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:visibility="gone"
+        >
 
         <TextView
             android:layout_width="wrap_content"

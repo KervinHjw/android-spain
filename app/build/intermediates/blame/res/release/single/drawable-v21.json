@@ -8,11 +8,43 @@
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_hide_password.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\469cc6bd23b9accfca79d5438e580a7033cdfee4\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\469cc6bd23b9accfca79d5438e580a7033cdfee4\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_show_password.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\469cc6bd23b9accfca79d5438e580a7033cdfee4\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_password_eye.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\469cc6bd23b9accfca79d5438e580a7033cdfee4\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     }
 ]

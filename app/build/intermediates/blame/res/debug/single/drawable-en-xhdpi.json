@@ -1,19 +1,19 @@
 [
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\xueya_colour720.png",
-        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\xueya_colour720.png"
-    },
-    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao3.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao3.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\xueya_colour720.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-en-xhdpi\\xueya_colour720.png"
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\personalcenter_switchbutton_women.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\personalcenter_switchbutton_women.png"
     },
     {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao3.png",
-        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao3.png"
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\xueya_colour710.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\xueya_colour710.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\lead3.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\lead3.png"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao5.png",
@@ -28,8 +28,68 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao2.png"
     },
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\personalcenter_switchbutton_man.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\personalcenter_switchbutton_man.png"
+    },
+    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao4.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao4.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\lead2.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\lead2.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\qidongye.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-en-xhdpi\\qidongye.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\zd02.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\zd02.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\zd05.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\zd05.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\xueya_colour720.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\xueya_colour720.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\lead1.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\lead1.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\danweibk.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\danweibk.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\zd04.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\zd04.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\bz.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\bz.png"
+    },
+    {
+        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\xueya_colour720.png",
+        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-en-xhdpi\\xueya_colour720.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao3.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao3.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\dw.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\dw.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\zd01.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\zd01.png"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\zd03.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\zd03.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao2.png",
@@ -40,16 +100,12 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\qidongye.png"
     },
     {
-        "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\qidongye.png",
-        "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-en-xhdpi\\qidongye.png"
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao4.png",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao4.png"
     },
     {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao5.png",
         "source": "E:\\as_scian\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao5.png"
-    },
-    {
-        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao4.png",
-        "source": "E:\\scian_en\\app\\src\\main\\res\\drawable-en-xhdpi\\celiangzhidao4.png"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en-xhdpi\\celiangzhidao1.png",

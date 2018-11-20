@@ -51,9 +51,10 @@
             android:layout_marginLeft="10dp"
             android:singleLine="true"
             android:textColor="#000"
-            android:textSize="@dimen/txt26sp" />
+            android:textSize="@dimen/txt22sp" />
 
         <TextView
+            android:id="@+id/history_company"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"

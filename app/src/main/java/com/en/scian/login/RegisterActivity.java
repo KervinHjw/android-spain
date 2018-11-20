@@ -25,8 +25,12 @@ import com.en.scian.BaseActivity;
 import com.en.scian.ExampleApplication;
 import com.en.scian.R;
 import com.en.scian.entity.ResponseCommon;
+import com.en.scian.entity.UserCommonBean;
+import com.en.scian.entity.UserInfo;
+import com.en.scian.main.HomeActivity;
 import com.en.scian.network.Urls;
 import com.en.scian.util.Code;
+import com.en.scian.util.SettingUtils;
 import com.en.scian.util.ToastUtils;
 import com.google.gson.Gson;
 
@@ -358,7 +362,7 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 					@Override
 					public void onFailure(Throwable t, int errorNo, String strMsg) {
 						super.onFailure(t, errorNo, strMsg);
-						prompt(RegisterActivity.this.getResources().getString(R.string.wangluolianjieshibai));
+						//prompt(RegisterActivity.this.getResources().getString(R.string.wangluolianjieshibai));
 					}
 					@Override
 					public void onSuccess(Object t) {
@@ -373,12 +377,27 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 							prompt(RegisterActivity.this.getResources().getString(R.string.yonghucunzai));
 							
 						}else{
-							Intent intent = new Intent(RegisterActivity.this,RegisterPersonalDataActivity.class);
+							/*Intent intent = new Intent(RegisterActivity.this,RegisterPersonalDataActivity.class);
 							intent.putExtra("usermail", edt_phone.getText().toString());
 							intent.putExtra("pwd", edt_y_z_m.getText().toString());
 							intent.putExtra("verifyCode", bd_y_z_m.getText().toString());
 							startActivity(intent);
-							dialog.dismiss();
+							startActivity(new Intent(RegisterActivity.this,
+									HomeActivity.class));
+							dialog.dismiss();*/
+
+							String URL = Urls.USER_REGISTER;
+							AjaxParams params = new AjaxParams();
+							params.put("usermail", edt_phone.getText().toString());
+							params.put("pwd", edt_y_z_m.getText().toString());
+							params.put("verifyCode", bd_y_z_m.getText().toString());
+							/*params.put("userType", "");
+							params.put("realName", "");
+							params.put("sex", "");
+							params.put("birthday", "");
+							params.put("height", "");
+							params.put("weight", "");*/
+							registerUser(URL, params);
 						}
 					}
 				});
@@ -395,6 +414,74 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 			break;
 		}
 		
+	}
+
+	private void registerUser(String url, AjaxParams params) {
+		fh.post(url, params, new AjaxCallBack() {
+
+			@Override
+			public void onFailure(Throwable t, int errorNo, String strMsg) {
+				super.onFailure(t, errorNo, strMsg);
+				dialog.dismiss();
+				//ToastUtils.TextToast(getApplicationContext(), getResources().getString(R.string.wangluolianjieshibai));
+			}
+
+			@Override
+			public void onSuccess(Object t) {
+				super.onSuccess(t);
+				String content = (String) t;
+				ResponseCommon common = gson.fromJson(content,
+						ResponseCommon.class);
+				if (common.getStatus() != 1) {
+					dialog.dismiss();
+					prompt(common.getMsg());
+					return;
+				}
+				UserCommonBean bean = gson.fromJson(content,
+						UserCommonBean.class);
+				UserInfo info = bean.getData();
+				//
+				ExampleApplication app = (ExampleApplication) getApplication();
+				app.setUser(info);
+
+				int userID = info.getUserId();
+				String realName = info.getRealName();
+				int userSex = info.getSex();
+				int userType2 = info.getUserType();
+				String phone = info.getPhone();
+				String birthday = info.getBirthday();
+				float height = info.getHeight();
+				float weight = info.getWeight();
+				String usermail = info.getUsermail();
+				SettingUtils.set(RegisterActivity.this, "userId",
+						String.valueOf(userID));
+				SettingUtils.set(RegisterActivity.this, "realName",
+						realName);
+				SettingUtils.set(RegisterActivity.this, "sex",
+						String.valueOf(userSex));
+				SettingUtils.set(RegisterActivity.this, "userType",
+						String.valueOf(userType2));
+				SettingUtils.set(RegisterActivity.this, "phone",
+						phone);
+				SettingUtils.set(RegisterActivity.this, "birthday",
+						birthday);
+				SettingUtils.set(RegisterActivity.this, "height",
+						String.valueOf(height));
+				SettingUtils.set(RegisterActivity.this, "weight",
+						String.valueOf(weight));
+				SettingUtils.set(RegisterActivity.this, "usermali",
+						usermail);
+				SettingUtils.set(RegisterActivity.this, "pwd",
+						edt_y_z_m.getText().toString());
+				prompt(RegisterActivity.this.getResources().getString(R.string.zhucechenggong));
+
+				dialog.dismiss();
+				startActivity(new Intent(RegisterActivity.this,
+						HomeActivity.class));
+				// TODO 遍历所有Activity并finish
+				ExampleApplication.getInstance().exit();
+			}
+		});
 	}
 
 }

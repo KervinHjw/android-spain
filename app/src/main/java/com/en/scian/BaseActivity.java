@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Display;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -477,8 +478,11 @@ public class BaseActivity extends AbActivity {
 			if (distanceX > XDISTANCE_MIN
 					&& (distanceY < YDISTANCE_MIN && distanceY > -YDISTANCE_MIN)
 					&& ySpeed < YSPEED_MIN) {
+				Log.i("isHuaDong","______________"+"从左往右滑");
 				if (isHuaDong) {
+					Log.i("isHuaDong","______________"+"滑动");
 					if (isResult) {
+						Log.i("isHuaDong","______________"+"jieguoye");
 						Intent intent = new Intent(mContext, HomeActivity.class);
 						intent.putExtra("num", 0);
 						startActivity(intent);

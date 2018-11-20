@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.en.scian.R;
 import com.en.scian.entity.XueYaYearBase;
+import com.en.scian.util.SettingUtils;
 
 public class XueYaHistoryDataAdapter extends BaseAdapter {
 	private Context mContext;
@@ -68,6 +69,7 @@ public class XueYaHistoryDataAdapter extends BaseAdapter {
 			vh.time = (TextView) v.findViewById(R.id.xueya_data_time);
 			vh.num = (TextView) v.findViewById(R.id.xueya_history_data_num);
 			vh.maibo = (TextView) v.findViewById(R.id.xueya_history_data_maibo);
+			vh.company = (TextView)v.findViewById(R.id.history_company);
 			vh.rl = (RelativeLayout) v.findViewById(R.id.time_rl);
 			vh.cycle = (ImageView) v
 					.findViewById(R.id.xueya_data_history_cycle);
@@ -115,7 +117,13 @@ public class XueYaHistoryDataAdapter extends BaseAdapter {
 			}
 			vh.num.setTextColor(mContext.getResources().getColor(
 					xueyaTextColors[x > y ? x : y]));
-			vh.num.setText(gaoya + "/" + diya);
+			if(!SettingUtils.get(mContext,"kpa",false)){
+				vh.num.setText(gaoya + "/" + diya);
+				vh.company.setText("mmHg");
+			}else{
+				vh.num.setText(String.format("%.1f", gaoya/7.5) + "/" +String.format("%.1f", diya/7.5));
+				vh.company.setText("kpa");
+			}
 			vh.maibo.setText(String.valueOf(bean.getPulse()));
 			String time = bean.getTime();
 			if (!TextUtils.isEmpty(time)) {
@@ -157,6 +165,7 @@ public class XueYaHistoryDataAdapter extends BaseAdapter {
 		TextView maibo;
 		RelativeLayout rl;
 		ImageView cycle;
+		TextView company;
 	}
 
 }

@@ -35,4 +35,8 @@
         <item name="android:activityCloseExitAnimation">@anim/push_left_out</item>
     </style>
 
+    <style name="AppThemeprice" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
 </resources>

@@ -21,6 +21,7 @@ import com.en.scian.R;
 import com.en.scian.entity.MyEquipment;
 import com.en.scian.entity.MyEquipmentBean;
 import com.en.scian.entity.ResponseCommon;
+import com.en.scian.login.LoginActivity;
 import com.en.scian.network.Urls;
 import com.en.scian.util.SettingUtils;
 import com.en.scian.util.ToastUtils;
@@ -39,6 +40,7 @@ public class MyDevicesActivity extends BaseActivity implements OnClickListener {
 	private List<MyEquipment> list;
 	private Gson gson;
 	private FinalHttp fh;
+	private ProgressDialog dialog;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -62,7 +64,10 @@ public class MyDevicesActivity extends BaseActivity implements OnClickListener {
 		back = (LinearLayout) findViewById(R.id.search_leftLayout);
 
 		mydevices_lv = (ListView) findViewById(R.id.personalcenter_mydevices_lv);
-
+		dialog = new ProgressDialog(this);
+		dialog.setCancelable(false);
+		dialog.setMessage(getResources().getString(R.string.zhengzaijiazaiqingshaohou));
+		dialog.show();
 		fh = new FinalHttp();
 		fh.configTimeout(15 * 1000);
 	}
@@ -127,8 +132,9 @@ public class MyDevicesActivity extends BaseActivity implements OnClickListener {
 			@Override
 			public void onFailure(Throwable t, int errorNo, String strMsg) {
 				super.onFailure(t, errorNo, strMsg);
+				dialog.dismiss();
 				pd.dismiss();
-				ToastUtils.TextToast(MyDevicesActivity.this, getResources().getString(R.string.fuwuqilianjieyichang));
+				//ToastUtils.TextToast(MyDevicesActivity.this, getResources().getString(R.string.fuwuqilianjieyichang));
 			}
 
 			@Override
@@ -142,6 +148,7 @@ public class MyDevicesActivity extends BaseActivity implements OnClickListener {
 					prompt(common.getMsg());
 					mydevices_lv.setAdapter(new MyDevicesAdapter(
 							MyDevicesActivity.this, list));
+					dialog.dismiss();
 					return;
 				}
 				MyEquipmentBean bean = gson.fromJson(content,
@@ -151,6 +158,7 @@ public class MyDevicesActivity extends BaseActivity implements OnClickListener {
 					list.addAll(data);
 					mydevices_lv.setAdapter(new MyDevicesAdapter(
 							MyDevicesActivity.this, list));
+					dialog.dismiss();
 				}
 
 			}

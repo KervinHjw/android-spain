@@ -46,6 +46,7 @@ import com.en.scian.entity.ResponseCommon;
 import com.en.scian.network.Urls;
 import com.en.scian.util.BlueToothUtil;
 import com.en.scian.util.SettingUtils;
+import com.en.scian.xueya.XueYaCeLiangActivity;
 import com.en.scian.xueya.XunYiActivity;
 import com.google.gson.Gson;
 
@@ -84,8 +85,8 @@ public class XueYaDataFragment extends Fragment implements OnClickListener {
 
 	private Thread dialogAndTextThread;
 	private TextView xueya_data_diya;
-	private int gaoya = 0;
-	private int diya = 0;
+	private double gaoya = 0;
+	private double diya = 0;
 	private int maibo = 0;
 	private Thread th;
 	private RelativeLayout xunyi;
@@ -109,14 +110,26 @@ public class XueYaDataFragment extends Fragment implements OnClickListener {
 				}
 				break;
 			case 1:
-				if (xueya_data_xueya != null) {
-					xueya_data_xueya.setText(String.valueOf(gaoya));
-				}
-				if (xueya_data_diya != null) {
-					xueya_data_diya.setText(String.valueOf(diya));
-				}
-				if (xueya_data_maibo != null) {
-					xueya_data_maibo.setText(String.valueOf(maibo));
+				if(!SettingUtils.get(mContext,"kpa",false)){
+					if (xueya_data_xueya != null) {
+						xueya_data_xueya.setText(String.valueOf((int)gaoya));
+					}
+					if (xueya_data_diya != null) {
+						xueya_data_diya.setText(String.valueOf((int)diya));
+					}
+					if (xueya_data_maibo != null) {
+						xueya_data_maibo.setText(String.valueOf(maibo));
+					}
+				}else{
+					if (xueya_data_xueya != null) {
+						xueya_data_xueya.setText(String.valueOf(gaoya));
+					}
+					if (xueya_data_diya != null) {
+						xueya_data_diya.setText(String.valueOf(diya));
+					}
+					if (xueya_data_maibo != null) {
+						xueya_data_maibo.setText(String.valueOf(maibo));
+					}
 				}
 				break;
 			default:
@@ -232,31 +245,64 @@ public class XueYaDataFragment extends Fragment implements OnClickListener {
 				th = new Thread(new Runnable() {
 
 					public void run() {
-						
-						while (i<max) {
-							if(gaoya < result.getData().getBloodPressure().
-									getBloodPressureClose()){
-								gaoya++;
-							}
-							if (diya < result.getData().getBloodPressure()
-									.getBloodPressureOpen()) {
-								diya++;
-							}
-							if (maibo < result.getData().getBloodPressure()
-									.getPulse()) {
-								maibo++;
-							}
-							if (handler != null) {
-								handler.sendEmptyMessage(1);
-								try {
-									Thread.sleep(10);
-								} catch (InterruptedException e) {
-									e.printStackTrace();
+						if(!SettingUtils.get(mContext,"kpa",false)){
+							while (i<max) {
+								if(gaoya < result.getData().getBloodPressure().
+										getBloodPressureClose()){
+									gaoya++;
 								}
-							} else {
-								return;
-							}
+								if (diya < result.getData().getBloodPressure()
+										.getBloodPressureOpen()) {
+									diya++;
+								}
+								if (maibo < result.getData().getBloodPressure()
+										.getPulse()) {
+									maibo++;
+								}
+								if (handler != null) {
+									handler.sendEmptyMessage(1);
+									try {
+										Thread.sleep(10);
+									} catch (InterruptedException e) {
+										e.printStackTrace();
+									}
+								} else {
+									return;
+								}
 
+							}
+						}else{
+							while (i<max) {
+								if(gaoya < (int)(result.getData().getBloodPressure().
+										getBloodPressureClose()/7.5)){
+									gaoya++;
+								}else{
+									gaoya = Double.parseDouble(String.format("%.1f",result.getData().getBloodPressure().
+											getBloodPressureClose()/7.5));
+								}
+								if (diya < (int)(result.getData().getBloodPressure()
+										.getBloodPressureOpen()/7.5)){
+									diya++;
+								}else{
+									diya = Double.parseDouble(String.format("%.1f",result.getData().getBloodPressure()
+											.getBloodPressureOpen()/7.5));
+								}
+								if (maibo < result.getData().getBloodPressure()
+										.getPulse()) {
+									maibo++;
+								}
+								if (handler != null) {
+									handler.sendEmptyMessage(1);
+									try {
+										Thread.sleep(10);
+									} catch (InterruptedException e) {
+										e.printStackTrace();
+									}
+								} else {
+									return;
+								}
+
+							}
 						}
 
 					}
@@ -309,7 +355,21 @@ public class XueYaDataFragment extends Fragment implements OnClickListener {
 		switch (v.getId()) {
 		case R.id.xueya_data_restart:
 			SettingUtils.set(getActivity(), "isFirstIn", "1");
-			getBlueTooth();
+			//getBlueTooth();
+			if(getActivity().getIntent().getBooleanExtra("celiang",false)){
+				final Intent intent = new Intent(mContext, XueYaCeLiangActivity.class);
+				intent.putExtra("bundle",getActivity().getIntent().getBundleExtra("bundle"));
+				intent.putExtra("bluetooth",true);
+				intent.putExtra("again",true);
+				new Handler().postDelayed(new Runnable() {
+					@Override
+					public void run() {
+						//开始测量
+						startActivity(intent);
+					}
+				}, 400);
+				//startActivity(intent);
+			}
 			break;
 		case R.id.xunyi:
 			String phone = SettingUtils.get(getActivity(), "phone", "");

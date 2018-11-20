@@ -32,6 +32,10 @@
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\469cc6bd23b9accfca79d5438e580a7033cdfee4\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },

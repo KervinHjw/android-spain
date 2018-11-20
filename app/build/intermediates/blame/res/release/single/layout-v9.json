@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\release\\layout-v9\\umeng_common_download_notification.xml",
+        "source": "E:\\scian_en\\app\\src\\main\\res\\layout-v9\\umeng_common_download_notification.xml"
+    },
+    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\release\\layout-v9\\umeng_common_download_notification.xml",
         "source": "E:\\as_scian\\app\\src\\main\\res\\layout-v9\\umeng_common_download_notification.xml"
     }

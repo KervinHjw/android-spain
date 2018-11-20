@@ -61,6 +61,8 @@ public class SettingActivity extends BaseActivity implements OnClickListener,
 
 	private int isPush;
 	private FinalHttp fh;
+	private RelativeLayout unit;
+	private TextView checkoutUnit;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -82,7 +84,14 @@ public class SettingActivity extends BaseActivity implements OnClickListener,
 		ExampleApplication.getInstance().addActivity(this);
 		title = (TextView) findViewById(R.id.search_titleText);
 		back = (LinearLayout) findViewById(R.id.search_leftLayout);
-
+		unit = (RelativeLayout) findViewById(R.id.setting_unit);
+		checkoutUnit = (TextView) findViewById(R.id.setting_tv_unit);
+		if(!SettingUtils.get(this,"kpa",false)){
+			checkoutUnit.setText("mmHg");
+		}else{
+			checkoutUnit.setText("kpa");
+		}
+		unit.setOnClickListener(this);
 		setting_instructions = (RelativeLayout) findViewById(R.id.setting_instructions);
 		setting_cache = (RelativeLayout) findViewById(R.id.setting_cache);
 		setting_about = (RelativeLayout) findViewById(R.id.setting_about);
@@ -155,6 +164,16 @@ public class SettingActivity extends BaseActivity implements OnClickListener,
 		case R.id.setting_exit:// 退出登录
 			showExitDialog();
 			break;
+		case R.id.setting_unit://切换血压单位
+			if(SettingUtils.get(this,"kpa",false)){
+				SettingUtils.set(this,"kpa",false);
+				checkoutUnit.setText("mmHg");
+			}else{
+				SettingUtils.set(this,"kpa",true);
+				checkoutUnit.setText("kpa");
+			}
+			finishPage();
+			break;
 		/*case R.id.setting_version_update:// 检测
 			checkVersion();
 			break;*/
@@ -186,6 +205,7 @@ public class SettingActivity extends BaseActivity implements OnClickListener,
 				SettingUtils.set(SettingActivity.this, "userId", "");
 				SettingUtils.set(SettingActivity.this, "usermail", "");
 				SettingUtils.set(SettingActivity.this, "pwd", "");
+				SettingUtils.set(SettingActivity.this, "realName", "");
 				DataCleanManager.cleanDatabases(activity);
 
 			}

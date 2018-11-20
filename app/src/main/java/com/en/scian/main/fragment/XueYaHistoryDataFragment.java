@@ -142,7 +142,7 @@ public class XueYaHistoryDataFragment extends Fragment {
 			@Override
 			public void onFailure(Throwable t, int errorNo, String strMsg) {
 				super.onFailure(t, errorNo, strMsg);
-				ToastUtils.TextToast(getActivity(), getResources().getString(R.string.fuwuqilianjieyichang));
+				//ToastUtils.TextToast(getActivity(), getResources().getString(R.string.fuwuqilianjieyichang));
 			}
 
 			@Override
@@ -153,8 +153,8 @@ public class XueYaHistoryDataFragment extends Fragment {
 				ResponseCommon common = gson.fromJson(content,
 						ResponseCommon.class);
 				if (common.getStatus() == 0) {
-					Toast.makeText(mContext, common.getMsg(),
-							Toast.LENGTH_SHORT).show();
+					/*Toast.makeText(mContext, common.getMsg(),
+							Toast.LENGTH_SHORT).show();*/
 					return;
 				}
 

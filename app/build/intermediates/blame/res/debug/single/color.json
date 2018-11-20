@@ -4,6 +4,10 @@
         "source": "E:\\scian_en\\app\\src\\main\\res\\color\\home_menu_rb_text_selector.xml"
     },
     {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\469cc6bd23b9accfca79d5438e580a7033cdfee4\\output\\res\\color\\design_error.xml"
+    },
+    {
         "merged": "E:\\as_scian\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
@@ -162,6 +166,10 @@
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\7cf9d5b76df47a5b62081ec1f29172d400a4d9f8\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "E:\\adt-bundle\\sdk\\.android\\build-cache\\469cc6bd23b9accfca79d5438e580a7033cdfee4\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "E:\\scian_en\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",

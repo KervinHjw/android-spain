@@ -16,6 +16,7 @@
     <string name="button_ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="celiangzhongfashengcuowu">Error in measurement</string>
+    <string name="changjianwenti">Common problem</string>
     <string name="chazhaohaoyou">查找好友</string>
     <string name="chazhaoshebei">Search Device</string>
     <string name="chazhaowancheng">Search Complete</string>
@@ -28,6 +29,7 @@
     <string name="common_title_search">Search</string>
     <string name="confirm">Confirm</string>
     <string name="dailyrecommendationactivity_wzxq">Expert Advices-Info</string>
+    <string name="dangqian">current: </string>
     <string name="dangqianyishizuixinban">当前已是最新版.</string>
     <string name="denglu">Login</string>
     <string name="dialog_select_pic_album">Select From Album</string>
@@ -49,6 +51,41 @@
     <string name="expert_advice_item_title">王教授建议人民群众多参见长跑</string>
     <string name="facebook">Facebook</string>
     <string name="facebookmessenger">Facebook Messenger</string>
+    <string name="faq01">1.Is this monitor accurate?</string>
+    <string name="faq02">2.Are there any risks in taking my blood pressure at home with our monitors?</string>
+    <string name="faq03">3.Why does the Bluetooth connection fails?</string>
+    <string name="faq04">4.Why is the switch button not working?</string>
+    <string name="faq05">5.Why is there no response during the measurement?</string>
+    <string name="faq06">6.Why is the result abnormal?</string>
+    <string name="faq1"><b>1.\u0020Is this monitor accurate?</b>\n\n\n
+Yes.\n
+In order to ensure its accuracy, the monitors have obtained EC medical certification (Europe) as well as
+        FDA approval (USA).</string>
+    <string name="faq2"><b>2.\Are there any risks in taking my blood pressure at home with our monitors?</b>\n\n\n
+There are no physical risks associated with taking your blood pressure at home with this product. If you find the measurements
+        uncomfortable, consult with your healthcare professional regarding proper cuff application and tightness.\n
+You can stop the measurement at any time during the measurement by pressing the STOP button to the right on the App screen to stop inflation.
+</string>
+    <string name="faq3"><b>3.\u0020Why does the Bluetooth connection fails?</b>\n\n\n
+        There are no physical risks associated with taking your blood pressure at home with this product. If you find the measurements uncomfortable, consult with your healthcare professional regarding proper cuff application and tightness.
+You can stop the measurement at any time during the measurement by pressing the STOP button to the right on the App screen to
+        stop inflation.\n\n
+</string>
+    <string name="faq4"><b>4.\u0020Why is the switch button not working?</b>\n\n\n
+      The battery level might be too low. Try to recharge the battery.
+</string>
+    <string name="faq5"><b>5.\u0020Why is there no response during the measurement?</b>\n\n\n
+       Incorrect operation or strong electromagnetic interference may lead to this condition.\n
+Press the switch button and hold for about 10 seconds to reset the monitor. Reinstall app and reconnect the mobile device to the monitor.
+    </string>
+    <string name="faq6"><b>6.\u0020Why is the result abnormal?</b>\n\n\n
+       \u0020The cuff position was not correct or it was not properly tightened.
+Review the cuff application instructions and retest.\n
+\u0020Body posture was not correct during testing.
+Review body posture instructions and retest.\n
+\u0020Speaking, moving arm or body or being angry, excited or nervous during test all may lead to abnormal result.\n
+Retest when calm, avoid speaking or movement during the test.\n
+</string>
     <string name="fasongliuyanxiaoxishibai">发送留言消息失败！</string>
     <string name="finish">Finish</string>
     <string name="flickr">Flickr</string>
@@ -89,6 +126,8 @@
     <string name="home_content_rb_1">History</string>
     <string name="home_content_rb_2">Health-Info</string>
     <string name="home_content_rb_3">Family</string>
+    <string name="home_left_menu_danwei_text">Switching unit</string>
+    <string name="home_left_menu_help_text">help</string>
     <string name="home_left_menu_lv_item_personal_info">Personal File</string>
     <string name="home_left_menu_message_text">Message Center</string>
     <string name="home_left_menu_mydevices_text">My Equipment</string>
@@ -106,6 +145,7 @@
     <string name="instapaper_logining">Sign In…</string>
     <string name="instapaper_pwd">Password</string>
     <string name="ios_dialog">打开仿IOS UIAlertView</string>
+    <string name="jisuan">count</string>
     <string name="kaixin">Kaixin</string>
     <string name="kakaostory">KakaoStory</string>
     <string name="kakaostory_client_inavailable">KakaoStory client not exists or the version is too low</string>
@@ -184,13 +224,13 @@
     <string name="personaldata_birthday">Birthday</string>
     <string name="personaldata_chose_birthday">Please set you birthday</string>
     <string name="personaldata_head">Profile Photo</string>
-    <string name="personaldata_height">Height</string>
+    <string name="personaldata_height">Height(cm)</string>
     <string name="personaldata_info">Profile</string>
     <string name="personaldata_modifypwd">修改密码</string>
     <string name="personaldata_name">Name</string>
     <string name="personaldata_save">Save</string>
     <string name="personaldata_sex">Gender</string>
-    <string name="personaldata_weight">Weight</string>
+    <string name="personaldata_weight">Weight(kg)</string>
     <string name="pinterest">Pinterest</string>
     <string name="pinterest_client_inavailable">Pinterest client not exists or the version is too low</string>
     <string name="pocket">Pocket</string>
@@ -342,6 +382,7 @@ You understand and agree to be responsible for the service risk once access to o
     <string name="shibai">失败</string>
     <string name="shifoutuichu">Are you sure you want to log out？</string>
     <string name="shijiangengxinchenggong">时间更新成功</string>
+    <string name="shiyongzhinan">Guide to use</string>
     <string name="shortmessage">Short Message</string>
     <string name="shousuoyabunengxiaoyushuzhangya">Systolic blood pressure should not be less than diastolic blood pressure</string>
     <string name="shuruguanjianzisousuo">输入关键字搜索</string>
@@ -441,6 +482,14 @@ You understand and agree to be responsible for the service risk once access to o
     <string name="xueyaceliangzhidaoactivity_xyclzd">Tips</string>
     <string name="xueyajididianliang">Blood pressure meter low power</string>
     <string name="xueyajizhengzaiceliang">Blood pressure gauge is being measured</string>
+    <string name="xueyazhishi">Blood pressure knowledge</string>
+    <string name="xueyazhishi01">1.What is blood pressure?</string>
+    <string name="xueyazhishi02">2.What do the terms “systolic” and “diastolic” mean?</string>
+    <string name="xueyazhishi03">3.What is normal blood pressure?</string>
+    <string name="xueyazhishi04">4.What is high blood pressure/hypertension?</string>
+    <string name="xueyazhishi05">5.How do I know if I have high blood pressure?</string>
+    <string name="xueyazhishi06">6.Should I consult my healthcare provider about my blood pressure readings?</string>
+    <string name="xueyazhishi07">7.How can I understand and interpret my measurement results?</string>
     <string name="xunyiactivity_xunyi">Search Doctor</string>
     <string name="yanzhengmagf">0123456789abcdefghijklmnopqrstuvwxyz</string>
     <string name="yanzhengmaguifan">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
@@ -469,6 +518,67 @@ You understand and agree to be responsible for the service risk once access to o
     <string name="zhengzaijiazaiqingshaohou">Loading...</string>
     <string name="zhengzailianjieqingshaohou">connecting...</string>
     <string name="zhengzaiqingchuhuancun">Clean Cache</string>
+    <string name="zhishi01"><b>1.\u0020What is blood pressure?</b>\n\n\n
+        Blood Pressure is the force or pressure that is exerted by blood pushing against the walls of the blood vessels throughout the body.
+The heart acts as a pump that circulates the blood forcing the blood through the vessels.\n\n
+        During each heartbeat，this force moves the blood from the maximum(systolic) pressure to the minimum(diastolic) pressure. The cardiac cycle is this complete series of events within each heartbeat.
+        Blood pressure is measured in millimeters of mercury (mmHg).
+    </string>
+    <string name="zhishi02">
+        <b>2.What do the terms “systolic” and “diastolic” mean?</b>\n\n\n
+        Blood pressure is commonly expressed in terms of the systolic pressure\n
+over the diastolic pressure as 120/80. The highest point of pressure in the heartbeat cycle is the systolic measurement-this
+        is the exerted pressure when the heart contracts. The lowest point occurs between heartbeats and is the diastolic
+        measurement-this is the minimum pressure in the arteries when the heart is at rest.
+    </string>
+    <string name="zhishi03">
+        <b>3.What is normal blood pressure?</b>\n\n\n
+        The World Health Organization has established the following globally accepted guidelines for the assessment of blood pressure readings:
+Optimal blood pressure\n
+Systolic pressure &lt; 120mmHg\n
+Diastolic pressure &lt; 80mmHg\n
+Normal blood pressure\n
+Systolic pressure 120~129mmHg\n
+Diastolic pressure 80~84mmHg\n
+High-normal blood pressure\n
+Systolic pressure 130~139mmHg\n
+Diastolic pressure 85~89mmHg\n
+Mild hypertension\n
+Systolic pressure 140~159mmHg\n
+Diastolic pressure 90~99mmHg\n
+Moderate hypertension\n
+Systolic pressure 160~179mmHg\n
+Diastolic pressure 100~109mmHg\n
+Severe hypertension\n
+Systolic pressure > 179mmHg\n
+Diastolic pressure > 110mmHg\n\n
+    </string>
+    <string name="zhishi04">
+        <b>4.What is high blood pressure/hypertension?</b>\n\n\n
+        High blood pressure, also known as hypertension, is a common condition in which the pressure exerted by the
+        blood pushing against the blood vessels is high enough to potentially cause health problems, including heart disease.
+        This condition is dangerous as it causes the heart to work harder to pump the blood through the body.
+    </string>
+    <string name="zhishi05">
+        <b>5.How do I know if I have high blood pressure?</b>\n\n\n
+        Hypertension is often called \‘the silent killer\’ because many people experience little or no symptoms. The name hypertension can be misleading as the prefix \‘hyper\’ may seem to indicate hyperactive, tense or nervous behavior; in fact, a seemingly calm and relaxed individual may still suffer from high blood pressure or hypertension.
+Home monitoring is a great way to help detect and monitor high blood pressure. Regular readings taken over a period of time can track the history of your results and indicate any changes, fluctuations or elevations in your blood pressure. An individual high reading is not necessarily an indication of hypertension or other health issue.
+Only your healthcare provider should diagnose any medical condition. iScian Blood Pressure Monitors provide a
+        convenient way to test, track and share your results.
+    </string>
+    <string name="zhishi06">
+        <b>6.Should I consult my healthcare provider about my blood pressure readings?</b>\n\n\n
+        If you are already diagnosed with high blood pressure, it is important to see your health care provider on a regular basis. This App is a convenient way to store, track and share your measurements with your healthcare provider so he or she can assist in treating your condition.
+If you are not already diagnosed with high blood pressure but have concerns about the measurement results,
+        it is suggested to see your healthcare provider for an accurate interpretation and diagnosis of your health.
+    </string>
+    <string name="zhishi07">
+        <b>7.How can I understand and interpret my measurement results?</b>\n\n\n
+        You can interpret the measurements using the WHO\'s blood pressure classification, or consult your healthcare provider what the ideal blood pressure is for your body type, lifestyle and overall health status.
+A blood pressure measurement can read as artificially elevated for a particular reading. It is important to follow the information provided in your manual to properly prepare for the reading and for proper product use.
+If you feel your measurement is incorrect, wait several minutes and reattempt the measurement;
+        try to remain calm and relaxed so as to artificially inflate the results.
+    </string>
     <string name="zhuangtaigenggaichenggong">状态更改成功</string>
     <string name="zhuce">Register</string>
     <string name="zhucechenggong">Register successfully</string>
